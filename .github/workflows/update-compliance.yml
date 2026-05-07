@@ -2,17 +2,22 @@ name: Daily Compliance Update
 
 on:
   workflow_dispatch:
+
   schedule:
-    - cron: "0 18 * * *" # 02:00 Singapore time daily
+    - cron: "0 0 * * *"
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 jobs:
   update:
     runs-on: ubuntu-latest
+
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -22,22 +27,29 @@ jobs:
         with:
           node-version: 24
 
-      - name: Verify project files
-        run: |
-          test -f data/sources.json
-          test -f scripts/update-compliance.mjs
-          node -e "JSON.parse(require('fs').readFileSync('data/sources.json','utf8')); console.log('sources.json is valid JSON')"
+      - name: Install dependencies
+        run: npm install
 
-      - name: Run regulatory monitor
+      - name: Run compliance updater
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GEMINI_MODEL: gemini-2.5-flash
-        run: npm run update
+        run: node scripts/update-compliance.mjs
 
-      - name: Commit updated compliance data
+      - name: Build Vite site
+        run: npm run build
+
+      - name: Commit updated data
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add data/compliance.json data/changes.json data/alerts.json data/history/*.json
-          git diff --cached --quiet || git commit -m "Automated regulatory monitoring update"
+          git add data
+          git diff --cached --quiet || git commit -m "Automated compliance update"
           git push
+
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./dist
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
