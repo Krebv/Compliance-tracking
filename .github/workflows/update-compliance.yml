@@ -1,0 +1,30 @@
+name: Daily compliance update
+
+on:
+  schedule:
+    - cron: '0 18 * * *' # 02:00 Singapore time daily
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Update compliance data with Gemini
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: gemini-2.5-flash
+        run: npm run update
+      - name: Commit updated compliance data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'Daily compliance data update'
+          file_pattern: data/compliance.json
