@@ -35,4 +35,274 @@
     ],
     "foodCategories": ["seasoning", "snack food"]
   }
+    {
+    "country": "Thailand",
+    "authority": "Thai FDA / Ministry of Public Health",
+    "categories": ["additives", "microbiology", "contaminants", "salt", "allergens", "labelling"],
+    "sources": [
+      {
+        "name": "Thai FDA - Food Division",
+        "url": "https://food.fda.moph.go.th/",
+        "type": "official",
+        "notes": "Main Thai FDA food regulatory portal. Use for food additives, labelling, contaminants and food safety notices."
+      }
+    ]
+  },
+  {
+    "country": "South Korea",
+    "authority": "Ministry of Food and Drug Safety (MFDS)",
+    "categories": ["additives", "microbiology", "contaminants", "salt", "allergens", "labelling"],
+    "sources": [
+      {
+        "name": "MFDS English Food Regulations",
+        "url": "https://www.mfds.go.kr/eng/brd/m_15/list.do",
+        "type": "official",
+        "notes": "MFDS English regulation announcements and translated food standards."
+      },
+      {
+        "name": "Korea Food Code - Common Standards",
+        "url": "https://www.mfds.go.kr/files/upload/eng/Article_2._Common_Standards___Specification_for_General_Foods.pdf",
+        "type": "official_pdf",
+        "notes": "General food standards and specifications."
+      }
+    ]
+  },
+  {
+    "country": "Japan",
+    "authority": "Ministry of Health, Labour and Welfare (MHLW)",
+    "categories": ["additives", "microbiology", "contaminants", "salt", "allergens", "labelling"],
+    "sources": [
+      {
+        "name": "MHLW Food Safety",
+        "url": "https://www.mhlw.go.jp/english/topics/foodsafety/",
+        "type": "official",
+        "notes": "Main Japan food safety portal, including Food Sanitation Act and specifications for food additives."
+      },
+      {
+        "name": "Japan Food Sanitation Act",
+        "url": "https://www.japaneselawtranslation.go.jp/en/laws/view/3687/en",
+        "type": "official_law_translation",
+        "notes": "Legal basis for food safety, food additives and sanitation controls."
+      }
+    ]
+  },
+  {
+    "country": "India",
+    "authority": "Food Safety and Standards Authority of India (FSSAI)",
+    "categories": ["additives", "microbiology", "contaminants", "salt", "allergens", "labelling"],
+    "sources": [
+      {
+        "name": "FSSAI Food Additives Regulations Compendium",
+        "url": "https://www.fssai.gov.in/upload/uploadfiles/files/Compendium_Food_Additives_Regulations_20_12_2022.pdf",
+        "type": "official_pdf",
+        "notes": "Food Products Standards and Food Additives Regulations."
+      },
+      {
+        "name": "FSSAI Labelling and Display Regulations",
+        "url": "https://www.fssai.gov.in/upload/uploadfiles/files/Compendium_Labelling_Display_30_06_2022.pdf",
+        "type": "official_pdf",
+        "notes": "Use for allergen declaration, nutrition labelling and food labelling rules."
+      }
+    ]
+  },
+  {
+    "country": "Bangladesh",
+    "authority": "Bangladesh Food Safety Authority (BFSA)",
+    "categories": ["additives", "microbiology", "contaminants", "salt", "allergens", "labelling"],
+    "sources": [
+      {
+        "name": "BFSA Draft / Regulations Page",
+        "url": "https://bfsa.gov.bd/pages/static-pages/6922dc26933eb65569e0ea67",
+        "type": "official",
+        "notes": "BFSA page listing food safety regulations, including microbial contaminant controls."
+      },
+      {
+        "name": "Food Safety Microbiological Contaminants Regulation 2023",
+        "url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-bfsa/2024/12/d13e534518284109a6e53e9caf673568.pdf",
+        "type": "official_pdf",
+        "notes": "Microbiological contaminant regulation."
+      }
+    ]
+  },
+  {
+    "country": "GCC",
+    "authority": "GCC Standardization Organization (GSO)",
+    "categories": ["additives", "microbiology", "contaminants", "salt", "allergens", "labelling"],
+    "sources": [
+      {
+        "name": "GSO Standards Store",
+        "url": "https://www.gso.org.sa/store/",
+        "type": "official",
+        "notes": "Main GSO standards portal. Search for GSO food additives, contaminants, labelling and microbiological criteria."
+      },
+      {
+        "name": "GSO 1016:2015 Microbiological Criteria for Foodstuffs",
+        "url": "https://www.gso.org.sa/store/standards/GSO:693280/GSO1016:2015?lang=en",
+        "type": "official",
+        "notes": "Microbiological limits for foodstuffs and food ingredients."
+      }
+    ]
+  },
+  {
+    "country": "Middle East",
+    "authority": "Regional grouping - use GCC/GSO plus country-specific authorities",
+    "categories": ["additives", "microbiology", "contaminants", "salt", "allergens", "labelling"],
+    "sources": [
+      {
+        "name": "GSO Standards Store",
+        "url": "https://www.gso.org.sa/store/",
+        "type": "official",
+        "notes": "Use for GCC countries. Middle East is not one regulatory jurisdiction, so add Saudi, UAE, Qatar, Kuwait, Oman, Bahrain, Iran, etc. separately where needed."
+      }
+    ]
+  },
+  {
+    "country": "United States",
+    "authority": "U.S. Food and Drug Administration (FDA)",
+    "categories": ["additives", "microbiology", "contaminants", "salt", "allergens", "labelling"],
+    "sources": [
+      {
+        "name": "FDA Food Additive Listings",
+        "url": "https://www.fda.gov/food/food-ingredients-packaging/food-additive-listings",
+        "type": "official",
+        "notes": "FDA food and color additive listings."
+      },
+      {
+        "name": "FDA Substances Added to Food",
+        "url": "https://www.fda.gov/food/food-additives-petitions/substances-added-food-formerly-eafus",
+        "type": "official",
+        "notes": "Inventory of food additives, color additives, GRAS substances and other substances added to food."
+      },
+      {
+        "name": "FDA Chemical Contaminants Transparency Tool",
+        "url": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=contaminant-levels",
+        "type": "official_database",
+        "notes": "FDA consolidated contaminant levels, including tolerances, action levels and guidance levels."
+      },
+      {
+        "name": "FDA Food Allergies",
+        "url": "https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/food-allergies",
+        "type": "official",
+        "notes": "Major food allergens including sesame as the ninth major allergen."
+      }
+    ]
+  },
+  {
+    "country": "China",
+    "authority": "National Health Commission / SAMR / GB Food Safety Standards",
+    "categories": ["additives", "microbiology", "contaminants", "salt", "allergens", "labelling"],
+    "sources": [
+      {
+        "name": "China GB 2760 Food Additive Use Standard - Reference Translation",
+        "url": "https://apps.fas.usda.gov/newgainapi/api/report/downloadreportbyfilename?filename=Standard+for+Food+Additive+Use+-+GB2760-2015_Beijing_China+-+Peoples+Republic+of_4-28-2015.pdf",
+        "type": "reference_translation",
+        "notes": "Unofficial English translation of GB 2760 food additive use standard. Verify against current Chinese official GB standards."
+      },
+      {
+        "name": "China National Food Safety Standards Information",
+        "url": "https://www.nhc.gov.cn/",
+        "type": "official",
+        "notes": "Official National Health Commission portal. Use Chinese GB standards as legal source."
+      }
+    ]
+  },
+  {
+    "country": "Indonesia",
+    "authority": "Badan Pengawas Obat dan Makanan (BPOM)",
+    "categories": ["additives", "microbiology", "contaminants", "salt", "allergens", "labelling"],
+    "sources": [
+      {
+        "name": "BPOM Official Website",
+        "url": "https://www.pom.go.id/",
+        "type": "official",
+        "notes": "Main BPOM regulatory website. Search for PerBPOM food additive limits, processed food contaminants, allergens and labelling."
+      },
+      {
+        "name": "BPOM JDIH Legal Database",
+        "url": "https://jdih.pom.go.id/",
+        "type": "official_database",
+        "notes": "Official BPOM legal database for regulations."
+      }
+    ]
+  },
+  {
+    "country": "Iran",
+    "authority": "Iran Food and Drug Administration (IFDA)",
+    "categories": ["additives", "microbiology", "contaminants", "salt", "allergens", "labelling"],
+    "sources": [
+      {
+        "name": "Iran Food and Drug Administration",
+        "url": "https://www.fda.gov.ir/",
+        "type": "official",
+        "notes": "Main IFDA portal. Use Persian regulations as the legal source."
+      }
+    ]
+  },
+  {
+    "country": "Taiwan",
+    "authority": "Taiwan Food and Drug Administration (TFDA)",
+    "categories": ["additives", "microbiology", "contaminants", "salt", "allergens", "labelling"],
+    "sources": [
+      {
+        "name": "TFDA Food Laws and Regulations",
+        "url": "https://www.fda.gov.tw/ENG/law.aspx?cid=16",
+        "type": "official",
+        "notes": "Main TFDA English food regulation portal."
+      },
+      {
+        "name": "Taiwan Food Allergen Labeling Regulation",
+        "url": "https://www.fda.gov.tw/eng/lawContent.aspx?cid=16&id=3407",
+        "type": "official",
+        "notes": "Allergen labelling requirements for prepackaged food."
+      },
+      {
+        "name": "Taiwan Sanitation Standard for Contaminants and Toxins in Food",
+        "url": "https://www.mohw.gov.tw/dl-93760-b655def5-a062-4ece-aaaa-59fcf1e9d170.html",
+        "type": "official_pdf",
+        "notes": "Contaminant and toxin limits."
+      }
+    ]
+  },
+  {
+    "country": "Philippines",
+    "authority": "Philippines Food and Drug Administration (FDA)",
+    "categories": ["additives", "microbiology", "contaminants", "salt", "allergens", "labelling"],
+    "sources": [
+      {
+        "name": "Philippines FDA Official Website",
+        "url": "https://www.fda.gov.ph/",
+        "type": "official",
+        "notes": "Main FDA Philippines portal."
+      },
+      {
+        "name": "Philippines FDA Microbiological Requirements Circular 2022-012",
+        "url": "https://www.fda.gov.ph/fda-circular-no-2022-012-guidelines-on-the-microbiological-requirements-and-assessment-of-certain-prepackaged-processed-food-products-repealing-fda-circular-no-2013-010-entitled-revised-g/",
+        "type": "official",
+        "notes": "Microbiological requirements for certain prepackaged processed food products."
+      },
+      {
+        "name": "Philippine National Standards",
+        "url": "https://www.fda.gov.ph/philippine-national-standards/",
+        "type": "official",
+        "notes": "Product standards including some food categories."
+      }
+    ]
+  },
+  {
+    "country": "Vietnam",
+    "authority": "Ministry of Health / Vietnam Food Administration",
+    "categories": ["additives", "microbiology", "contaminants", "salt", "allergens", "labelling"],
+    "sources": [
+      {
+        "name": "Vietnam Food Administration",
+        "url": "https://vfa.gov.vn/",
+        "type": "official",
+        "notes": "Main Vietnam Food Administration portal."
+      },
+      {
+        "name": "Vietnam Food Safety Law and Decree 15/2018 Reference",
+        "url": "https://vanban.chinhphu.vn/",
+        "type": "official_legal_database",
+        "notes": "Vietnam government legal document database. Search for Law on Food Safety, Decree 15/2018/ND-CP and QCVN standards."
+      }
 ]
