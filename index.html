@@ -3,26 +3,39 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Food Compliance Tracker</title>
+  <title>Food Regulatory Intelligence Tracker</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header class="hero">
     <div>
-      <p class="eyebrow">Seasoning & Snack Regulatory Monitor</p>
+      <p class="eyebrow">Seasoning & Snack Regulatory Intelligence</p>
       <h1>Food Compliance Tracker</h1>
-      <p class="subtitle">Daily AI-assisted tracker for additives, microbiology, contaminants, salt/sodium and allergen rules by country.</p>
+      <p class="subtitle">Daily AI-assisted monitoring for additives, microbiology, contaminants, sodium/salt, allergens and labelling rules across export markets.</p>
     </div>
     <div class="status-card">
-      <span>Last update</span>
-      <strong id="lastUpdated">Loading…</strong>
-      <small id="dataStatus">Checking data file</small>
+      <span>Last updated</span>
+      <strong id="lastUpdated">Loading...</strong>
+      <small id="dataStatus">Loading data</small>
     </div>
   </header>
 
   <main>
+    <section class="summary-grid" id="summaryGrid"></section>
+
+    <section class="panel alert-panel">
+      <div class="panel-head">
+        <div>
+          <h2>Regulatory Change Alerts</h2>
+          <p class="muted" id="changeSummary">Loading change summary...</p>
+        </div>
+        <button id="downloadBtn">Download Current Data</button>
+      </div>
+      <div id="alertsList" class="alerts-list"></div>
+    </section>
+
     <section class="controls">
-      <input id="searchInput" type="search" placeholder="Search additive, allergen, contaminant, country…" />
+      <input id="searchInput" placeholder="Search country, additive, allergen, sodium, Pb, APC..." />
       <select id="countryFilter"><option value="">All countries</option></select>
       <select id="topicFilter">
         <option value="">All topics</option>
@@ -31,58 +44,41 @@
         <option>Contaminant Limits</option>
         <option>Salt / Sodium Limits</option>
         <option>Allergen List</option>
+        <option>Labelling Requirement</option>
       </select>
-      <select id="riskFilter">
-        <option value="">All risk levels</option>
-        <option>Low</option>
-        <option>Moderate</option>
-        <option>High</option>
-      </select>
+      <select id="riskFilter"><option value="">All risks</option><option>High</option><option>Moderate</option><option>Low</option></select>
     </section>
-
-    <section class="summary-grid" id="summaryGrid"></section>
 
     <section class="panel">
       <div class="panel-head">
-        <h2>Compliance Rules</h2>
-        <button id="downloadBtn">Download JSON</button>
+        <h2>Current Regulatory Rules</h2>
+        <span class="muted" id="resultCount"></span>
       </div>
-      <div class="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th>Country</th>
-              <th>Topic</th>
-              <th>Food Category</th>
-              <th>Substance / Parameter</th>
-              <th>Limit / Requirement</th>
-              <th>Risk</th>
-              <th>Source</th>
-            </tr>
-          </thead>
-          <tbody id="rulesBody"></tbody>
-        </table>
-      </div>
+      <div class="table-wrap"><table><thead><tr><th>Country</th><th>Topic</th><th>Food Category</th><th>Parameter</th><th>Limit / Rule</th><th>Risk</th><th>Effective</th><th>Source</th></tr></thead><tbody id="rulesBody"></tbody></table></div>
     </section>
 
-    <section class="panel two-col">
-      <div>
-        <h2>Product Check</h2>
-        <p class="muted">Paste your product values below. The browser checks against the current JSON rules. For legal decisions, verify against the original regulation.</p>
-        <textarea id="productInput" placeholder='Example:\ncountry: Singapore\ncategory: snack seasoning\nsodium: 680 mg/100g\nallergens: soy, wheat\nadditives: MSG, silicon dioxide'></textarea>
-        <button id="checkBtn">Run Basic Check</button>
+    <section class="panel">
+      <h2>Change Log</h2>
+      <div class="table-wrap"><table><thead><tr><th>Type</th><th>Severity</th><th>Country</th><th>Topic</th><th>Parameter</th><th>Old</th><th>New</th><th>Source</th></tr></thead><tbody id="changesBody"></tbody></table></div>
+    </section>
+
+    <section class="two-col">
+      <div class="panel">
+        <h2>Basic Product Screening</h2>
+        <p class="muted">Paste a product description, ingredients, additives, microbiology or contaminant results. This browser-side checker only matches against the saved database.</p>
+        <textarea id="productInput" placeholder="Example: Thailand snack seasoning, contains INS 621, sodium 1200 mg/100g, milk allergen, APC result..."></textarea>
+        <button id="checkBtn">Screen against saved rules</button>
       </div>
-      <div>
-        <h2>Check Result</h2>
+      <div class="panel">
+        <h2>Screening Output</h2>
         <pre id="checkOutput">No check run yet.</pre>
       </div>
     </section>
   </main>
 
   <footer>
-    <strong>Important:</strong> AI extraction is a monitoring aid, not legal approval. Always verify limits against official regulations before product release or export.
+    <p>AI-assisted monitoring only. Always verify against official law before product release, export, label approval or customer declaration.</p>
   </footer>
-
   <script src="app.js"></script>
 </body>
 </html>
