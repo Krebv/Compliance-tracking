@@ -17,10 +17,10 @@ jobs:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Node
+      - name: Setup Node.js 24
         uses: actions/setup-node@v4
         with:
           node-version: 24
@@ -28,15 +28,33 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Verify files
+        run: |
+          ls -la
+          ls -la scripts
+          ls -la data
+
+      - name: Verify Gemini API Key
+        run: |
+          if [ -z "${{ secrets.GEMINI_API_KEY }}" ]; then
+            echo "GEMINI_API_KEY is missing"
+            exit 1
+          else
+            echo "GEMINI_API_KEY exists"
+          fi
+
       - name: Run compliance updater
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: node scripts/update-compliance.mjs
 
-      - name: Commit updated data
+      - name: Commit and push updates
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
+
           git add .
+
           git diff --cached --quiet || git commit -m "Automated compliance update"
+
           git push
