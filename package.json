@@ -1,13 +1,16 @@
 {
-  "name": "regulatory-intelligence-tracker",
-  "version": "2.0.0",
-  "description": "GitHub Pages regulatory intelligence dashboard for seasoning and snack food compliance",
-  "type": "module",
   "scripts": {
-    "update": "node scripts/update-compliance.mjs",
-    "serve": "python3 -m http.server 8080"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "update": "node scripts/update-compliance.mjs"
   },
-  "engines": {
-    "node": ">=24"
-  }
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "lucide-react": "latest"
+  },
+  "devDependencies": {}
 }
