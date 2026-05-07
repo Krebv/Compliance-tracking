@@ -2,9 +2,8 @@ name: Daily Compliance Update
 
 on:
   workflow_dispatch:
-
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 18 * * *" # 02:00 Singapore time daily
 
 permissions:
   contents: write
@@ -12,10 +11,8 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
-
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -25,36 +22,22 @@ jobs:
         with:
           node-version: 24
 
-      - name: Install dependencies
-        run: npm install
-
-      - name: Verify files
+      - name: Verify project files
         run: |
-          ls -la
-          ls -la scripts
-          ls -la data
+          test -f data/sources.json
+          test -f scripts/update-compliance.mjs
+          node -e "JSON.parse(require('fs').readFileSync('data/sources.json','utf8')); console.log('sources.json is valid JSON')"
 
-      - name: Verify Gemini API Key
-        run: |
-          if [ -z "${{ secrets.GEMINI_API_KEY }}" ]; then
-            echo "GEMINI_API_KEY is missing"
-            exit 1
-          else
-            echo "GEMINI_API_KEY exists"
-          fi
-
-      - name: Run compliance updater
+      - name: Run regulatory monitor
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: node scripts/update-compliance.mjs
+          GEMINI_MODEL: gemini-2.5-flash
+        run: npm run update
 
-      - name: Commit and push updates
+      - name: Commit updated compliance data
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-
-          git add .
-
-          git diff --cached --quiet || git commit -m "Automated compliance update"
-
+          git add data/compliance.json data/changes.json data/alerts.json data/history/*.json
+          git diff --cached --quiet || git commit -m "Automated regulatory monitoring update"
           git push
