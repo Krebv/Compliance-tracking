@@ -1,0 +1,11 @@
+{
+  "name": "food-compliance-tracker",
+  "version": "1.0.0",
+  "description": "GitHub Pages food compliance tracker for seasoning and snack products",
+  "type": "module",
+  "scripts": {
+    "update": "node scripts/update-compliance.mjs",
+    "serve": "python3 -m http.server 8080"
+  },
+  "engines": { "node": ">=20" }
+}

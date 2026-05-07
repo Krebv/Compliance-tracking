@@ -1,0 +1,41 @@
+{
+  "updatedAt": "2026-05-07T00:00:00.000Z",
+  "rules": [
+    {
+      "country": "Singapore",
+      "topic": "Additive Limits",
+      "foodCategory": "seasoning / snack",
+      "parameter": "Permitted food additives",
+      "limit": "Only food additives assessed and permitted by SFA may be used; verify applicable schedule and food category.",
+      "unit": "",
+      "risk": "High",
+      "sourceTitle": "SFA - Regulatory Limits for Food Additives",
+      "sourceUrl": "https://www.sfa.gov.sg/regulatory-standards-frameworks-guidelines/food-safety-regulatory-limits/regulatory-limits-for-food-additives",
+      "notes": "Starter entry. Daily updater will replace/append AI-extracted records."
+    },
+    {
+      "country": "Singapore",
+      "topic": "Contaminant Limits",
+      "foodCategory": "food sold in Singapore",
+      "parameter": "Contaminants / incidental constituents",
+      "limit": "Food sold in Singapore must comply with SFA regulatory contaminant limits.",
+      "unit": "",
+      "risk": "High",
+      "sourceTitle": "SFA - Regulatory Limits for Contaminants in Food",
+      "sourceUrl": "https://www.sfa.gov.sg/regulatory-standards-frameworks-guidelines/food-safety-regulatory-limits/regulatory-limits-for-contaminants-in-food",
+      "notes": "Starter entry. Confirm detailed ML by contaminant and food category."
+    },
+    {
+      "country": "Codex",
+      "topic": "Additive Limits",
+      "foodCategory": "Codex food categories",
+      "parameter": "GSFA food additive provisions",
+      "limit": "Searchable by additive name, synonym, INS number, functional class and food category.",
+      "unit": "",
+      "risk": "Moderate",
+      "sourceTitle": "Codex GSFA Online",
+      "sourceUrl": "https://www.fao.org/fao-who-codexalimentarius/codex-texts/dbs/gsfa/en/",
+      "notes": "International reference; local law takes priority."
+    }
+  ]
+}

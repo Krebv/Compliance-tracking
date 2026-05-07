@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Food Compliance Tracker</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div>
+      <p class="eyebrow">Seasoning & Snack Regulatory Monitor</p>
+      <h1>Food Compliance Tracker</h1>
+      <p class="subtitle">Daily AI-assisted tracker for additives, microbiology, contaminants, salt/sodium and allergen rules by country.</p>
+    </div>
+    <div class="status-card">
+      <span>Last update</span>
+      <strong id="lastUpdated">Loading…</strong>
+      <small id="dataStatus">Checking data file</small>
+    </div>
+  </header>
+
+  <main>
+    <section class="controls">
+      <input id="searchInput" type="search" placeholder="Search additive, allergen, contaminant, country…" />
+      <select id="countryFilter"><option value="">All countries</option></select>
+      <select id="topicFilter">
+        <option value="">All topics</option>
+        <option>Additive Limits</option>
+        <option>Microbiology Limits</option>
+        <option>Contaminant Limits</option>
+        <option>Salt / Sodium Limits</option>
+        <option>Allergen List</option>
+      </select>
+      <select id="riskFilter">
+        <option value="">All risk levels</option>
+        <option>Low</option>
+        <option>Moderate</option>
+        <option>High</option>
+      </select>
+    </section>
+
+    <section class="summary-grid" id="summaryGrid"></section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h2>Compliance Rules</h2>
+        <button id="downloadBtn">Download JSON</button>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Country</th>
+              <th>Topic</th>
+              <th>Food Category</th>
+              <th>Substance / Parameter</th>
+              <th>Limit / Requirement</th>
+              <th>Risk</th>
+              <th>Source</th>
+            </tr>
+          </thead>
+          <tbody id="rulesBody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="panel two-col">
+      <div>
+        <h2>Product Check</h2>
+        <p class="muted">Paste your product values below. The browser checks against the current JSON rules. For legal decisions, verify against the original regulation.</p>
+        <textarea id="productInput" placeholder='Example:\ncountry: Singapore\ncategory: snack seasoning\nsodium: 680 mg/100g\nallergens: soy, wheat\nadditives: MSG, silicon dioxide'></textarea>
+        <button id="checkBtn">Run Basic Check</button>
+      </div>
+      <div>
+        <h2>Check Result</h2>
+        <pre id="checkOutput">No check run yet.</pre>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <strong>Important:</strong> AI extraction is a monitoring aid, not legal approval. Always verify limits against official regulations before product release or export.
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+[
+  {
+    "country": "Singapore",
+    "authority": "Singapore Food Agency / Singapore Statutes Online",
+    "urls": [
+      "https://www.sfa.gov.sg/regulatory-standards-frameworks-guidelines/food-safety-regulatory-limits/regulatory-limits-for-food-additives",
+      "https://www.sfa.gov.sg/regulatory-standards-frameworks-guidelines/food-safety-regulatory-limits/regulatory-limits-for-contaminants-in-food",
+      "https://sso.agc.gov.sg/SL/SFA1973-RG1?ProvIds=Sc11-"
+    ],
+    "foodCategories": ["seasoning powder", "seasoning sauce", "snack seasoning", "ready-to-eat snacks"]
+  },
+  {
+    "country": "Codex",
+    "authority": "FAO/WHO Codex Alimentarius",
+    "urls": [
+      "https://www.fao.org/fao-who-codexalimentarius/codex-texts/dbs/gsfa/en/",
+      "https://www.fao.org/fao-who-codexalimentarius/thematic-areas/contaminants/en/"
+    ],
+    "foodCategories": ["seasonings and condiments", "snack foods"]
+  },
+  {
+    "country": "European Union",
+    "authority": "European Commission",
+    "urls": [
+      "https://food.ec.europa.eu/food-safety/food-improvement-agents/additives/database_en",
+      "https://food.ec.europa.eu/food-safety/biological-safety/food-hygiene/microbiological-criteria_en"
+    ],
+    "foodCategories": ["seasonings", "snack foods"]
+  },
+  {
+    "country": "Malaysia",
+    "authority": "Ministry of Health Malaysia / Food Regulations 1985",
+    "urls": [
+      "https://hq.moh.gov.my/fsq/xs/dl.php?filename=Food+Regulation+1985+Update+291024+%28PUA+209_2020%29.pdf"
+    ],
+    "foodCategories": ["seasoning", "snack food"]
+  }
+]
