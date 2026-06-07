@@ -1,122 +1,104 @@
 {
-  "updatedAt": "2026-06-06T02:34:57.609Z",
+  "updatedAt": "2026-06-07T02:57:34.327Z",
   "alerts": [
     {
       "alertLevel": "High",
-      "title": "Added: India Allergen List - Allergen Declaration",
-      "country": "India",
-      "topic": "Allergen List",
+      "title": "Added: GCC Labelling Requirement - General labelling requirements",
+      "country": "GCC",
+      "topic": "Labelling Requirement",
       "actionRequired": "Review impacted seasoning/snack formulations, labels, COAs and export approvals.",
-      "sourceUrl": "https://www.fssai.gov.in/upload/uploadfiles/files/Compendium_Labelling_Display_30_06_2022.pdf",
-      "details": "New: Mandatory declaration; verification required. Specific allergens requiring declaration and their format must be verified against the full regulation document."
+      "sourceUrl": "https://www.gso.org.sa/store/",
+      "details": "New: Verification required. General labelling requirements for prepackaged food, including but not limited to ingredient lists, nutritional information, net content, manufacturer details, and potentially allergen declarations, must be verified against the full text of this technical regulation."
     },
     {
       "alertLevel": "High",
-      "title": "Added: Indonesia Allergen List - Allergen Declaration",
-      "country": "Indonesia",
-      "topic": "Allergen List",
+      "title": "Added: GCC Labelling Requirement - General requirements for Halal food",
+      "country": "GCC",
+      "topic": "Labelling Requirement",
       "actionRequired": "Review impacted seasoning/snack formulations, labels, COAs and export approvals.",
-      "sourceUrl": "https://jdih.pom.go.id/",
-      "details": "New: Verification required. Mandatory allergen declaration requirements for processed foods, including seasoning and snack products, are contained within the regulations listed under 'Pangan Olahan'."
+      "sourceUrl": "https://www.gso.org.sa/store/",
+      "details": "New: Verification required. General requirements for food to be considered Halal must be verified against the full text of this technical regulation. This impacts ingredients, processing, and potentially labelling if a Halal claim is made."
     },
     {
       "alertLevel": "High",
-      "title": "Added: Singapore Additive Limits - Food additives",
-      "country": "Singapore",
-      "topic": "Additive Limits",
+      "title": "Added: GCC Labelling Requirement - Mandatory expiration dates",
+      "country": "GCC",
+      "topic": "Labelling Requirement",
       "actionRequired": "Review impacted seasoning/snack formulations, labels, COAs and export approvals.",
-      "sourceUrl": "https://www.sfa.gov.sg/regulatory-standards-frameworks-guidelines/food-safety-regulatory-limits/regulatory-limits-for-food-additives",
-      "details": "New: Must have technological justification and not present health risks to consumers. "
+      "sourceUrl": "https://www.gso.org.sa/store/",
+      "details": "New: Verification required. Mandatory expiration date requirements for food products must be verified against the full text of this technical regulation."
     },
     {
       "alertLevel": "High",
-      "title": "Added: Singapore Additive Limits - Non-permitted additives",
-      "country": "Singapore",
-      "topic": "Additive Limits",
+      "title": "Added: GCC Microbiology Limits - Microbiological limits",
+      "country": "GCC",
+      "topic": "Microbiology Limits",
       "actionRequired": "Review impacted seasoning/snack formulations, labels, COAs and export approvals.",
-      "sourceUrl": "https://www.sfa.gov.sg/regulatory-standards-frameworks-guidelines/food-safety-regulatory-limits/regulatory-limits-for-food-additives",
-      "details": "New: Do not import or sell food products containing non-permitted additives. "
+      "sourceUrl": "https://www.gso.org.sa/store/standards/GSO:693280/GSO1016:2015?lang=en",
+      "details": "New: Verification required. Specific microbiological limits for various foodstuffs and food ingredients must be verified against the full text of this technical regulation."
     },
     {
       "alertLevel": "High",
-      "title": "Added: Singapore Additive Limits - Regulatory limits on food additives",
-      "country": "Singapore",
-      "topic": "Additive Limits",
-      "actionRequired": "Review impacted seasoning/snack formulations, labels, COAs and export approvals.",
-      "sourceUrl": "https://www.sfa.gov.sg/regulatory-standards-frameworks-guidelines/food-safety-regulatory-limits/regulatory-limits-for-food-additives",
-      "details": "New: All food businesses must comply. "
-    },
-    {
-      "alertLevel": "High",
-      "title": "Added: Singapore Contaminant Limits - Contaminants (incidental constituents)",
-      "country": "Singapore",
-      "topic": "Contaminant Limits",
-      "actionRequired": "Review impacted seasoning/snack formulations, labels, COAs and export approvals.",
-      "sourceUrl": "https://www.sfa.gov.sg/regulatory-standards-frameworks-guidelines/food-safety-regulatory-limits/regulatory-limits-for-contaminants-in-food",
-      "details": "New: Must be within SFA’s regulatory limits. "
-    },
-    {
-      "alertLevel": "High",
-      "title": "Added: Singapore Contaminant Limits - Contaminants exceeding regulatory limits",
-      "country": "Singapore",
-      "topic": "Contaminant Limits",
-      "actionRequired": "Review impacted seasoning/snack formulations, labels, COAs and export approvals.",
-      "sourceUrl": "https://www.sfa.gov.sg/regulatory-standards-frameworks-guidelines/food-safety-regulatory-limits/regulatory-limits-for-contaminants-in-food",
-      "details": "New: Do not import or sell food products containing contaminants exceeding regulatory limits. "
-    },
-    {
-      "alertLevel": "High",
-      "title": "Added: Singapore Contaminant Limits - Diethylstibestrol, hexoestrol, dienoestrol residues",
-      "country": "Singapore",
-      "topic": "Contaminant Limits",
-      "actionRequired": "Review impacted seasoning/snack formulations, labels, COAs and export approvals.",
-      "sourceUrl": "https://www.sfa.gov.sg/regulatory-standards-frameworks-guidelines/food-safety-regulatory-limits/regulatory-limits-for-contaminants-in-food",
-      "details": "New: Prohibited. "
-    },
-    {
-      "alertLevel": "High",
-      "title": "Added: Singapore Contaminant Limits - Regulatory limits on contaminants",
-      "country": "Singapore",
-      "topic": "Contaminant Limits",
-      "actionRequired": "Review impacted seasoning/snack formulations, labels, COAs and export approvals.",
-      "sourceUrl": "https://www.sfa.gov.sg/regulatory-standards-frameworks-guidelines/food-safety-regulatory-limits/regulatory-limits-for-contaminants-in-food",
-      "details": "New: All food businesses must comply. "
-    },
-    {
-      "alertLevel": "High",
-      "title": "Added: Singapore Labelling Requirement - Ingredients and additives",
+      "title": "Added: Singapore Labelling Requirement - Source fetch / extraction issue",
       "country": "Singapore",
       "topic": "Labelling Requirement",
       "actionRequired": "Review impacted seasoning/snack formulations, labels, COAs and export approvals.",
       "sourceUrl": "https://www.sfa.gov.sg/regulatory-standards-frameworks-guidelines/food-safety-regulatory-limits/regulatory-limits-for-food-additives",
-      "details": "New: Must be declared in list of ingredients on food labels. "
+      "details": "New: Manual review required. Automated extraction failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
     },
     {
       "alertLevel": "High",
-      "title": "Added: Singapore Labelling Requirement - Labelling requirements",
-      "country": "Singapore",
+      "title": "Added: Taiwan Additive Limits - γ-Aminobutyric Acid (GABA)",
+      "country": "Taiwan",
+      "topic": "Additive Limits",
+      "actionRequired": "Review impacted seasoning/snack formulations, labels, COAs and export approvals.",
+      "sourceUrl": "https://www.fda.gov.tw/ENG/law.aspx?cid=16",
+      "details": "New: Verification required. Specific use restrictions and labeling requirements for γ-Aminobutyric Acid (GABA) as a food ingredient must be verified."
+    },
+    {
+      "alertLevel": "High",
+      "title": "Added: Taiwan Allergen List - Crustacean shellfish, mango, peanuts, sesame seeds, milk and goat milk, eggs, tree nuts, gluten-containing cereals, soybeans, fish, and sulphite",
+      "country": "Taiwan",
+      "topic": "Allergen List",
+      "actionRequired": "Review impacted seasoning/snack formulations, labels, COAs and export approvals.",
+      "sourceUrl": "https://www.fda.gov.tw/eng/lawContent.aspx?cid=16&id=3407",
+      "details": "New: 10. Sulphite labeling is mandatory if the residue sulphur dioxide is 10 or more milligrams per kilogram of food."
+    },
+    {
+      "alertLevel": "High",
+      "title": "Added: Taiwan Allergen List - Mandatory Allergens",
+      "country": "Taiwan",
+      "topic": "Allergen List",
+      "actionRequired": "Review impacted seasoning/snack formulations, labels, COAs and export approvals.",
+      "sourceUrl": "https://www.fda.gov.tw/eng/lawContent.aspx?cid=16&id=3407",
+      "details": "New: Check official source. Food allergen labeling is required for prepackaged foods that contain any of the specified 11 allergens as an ingredient or food additive."
+    },
+    {
+      "alertLevel": "High",
+      "title": "Added: Taiwan Contaminant Limits - Pesticide Residues",
+      "country": "Taiwan",
+      "topic": "Contaminant Limits",
+      "actionRequired": "Review impacted seasoning/snack formulations, labels, COAs and export approvals.",
+      "sourceUrl": "https://www.fda.gov.tw/ENG/law.aspx?cid=16",
+      "details": "New: Verification required. Specific limits for various pesticides in different food categories must be verified against the full standard."
+    },
+    {
+      "alertLevel": "High",
+      "title": "Added: Taiwan Labelling Requirement - Nutrition Claims",
+      "country": "Taiwan",
       "topic": "Labelling Requirement",
       "actionRequired": "Review impacted seasoning/snack formulations, labels, COAs and export approvals.",
-      "sourceUrl": "https://www.sfa.gov.sg/regulatory-standards-frameworks-guidelines/food-safety-regulatory-limits/regulatory-limits-for-food-additives",
-      "details": "New: Food products must comply with labelling requirements. "
+      "sourceUrl": "https://www.fda.gov.tw/ENG/law.aspx?cid=16",
+      "details": "New: Check official source. Prepackaged food products must comply with revised regulations on nutrition claims."
     },
     {
       "alertLevel": "High",
-      "title": "Added: Taiwan Allergen List - Crustacean shellfish, mango, peanuts, sesame seeds, milk and goat milk, eggs, tree nuts, gluten-containing cereals, soybeans, fish",
-      "country": "Taiwan",
-      "topic": "Allergen List",
+      "title": "Added: Thailand Labelling Requirement - Prohibited foods",
+      "country": "Thailand",
+      "topic": "Labelling Requirement",
       "actionRequired": "Review impacted seasoning/snack formulations, labels, COAs and export approvals.",
-      "sourceUrl": "https://www.fda.gov.tw/eng/lawContent.aspx?cid=16&id=3407",
-      "details": "New: Presence. Mandatory labeling for these allergens when present as an ingredient or food additive."
-    },
-    {
-      "alertLevel": "High",
-      "title": "Added: Taiwan Allergen List - Sulphite (as residue sulphur dioxide)",
-      "country": "Taiwan",
-      "topic": "Allergen List",
-      "actionRequired": "Review impacted seasoning/snack formulations, labels, COAs and export approvals.",
-      "sourceUrl": "https://www.fda.gov.tw/eng/lawContent.aspx?cid=16&id=3407",
-      "details": "New: 10. Mandatory labeling for sulphite if the residue sulphur dioxide is 10 mg/kg or more."
+      "sourceUrl": "https://food.fda.moph.go.th/",
+      "details": "New: Prohibited. Certain foods are prohibited from production, import, or sale. Verification of prohibited food lists is required."
     },
     {
       "alertLevel": "High",
@@ -124,17 +106,17 @@
       "country": "United States",
       "topic": "Additive Limits",
       "actionRequired": "Review impacted seasoning/snack formulations, labels, COAs and export approvals.",
-      "sourceUrl": "https://www.fda.gov/food/food-additives-petitions/substances-added-food-formerly-eafus",
-      "details": "New: Prohibited from use in food. Listed in FDA regulations (21 CFR Part 189) as 'PROHIBITED' or 'PROHIBITED WITH EXCEPTIONS'."
+      "sourceUrl": "https://www.fda.gov/food/food-ingredients-packaging/food-additive-listings",
+      "details": "New: Prohibited. Prohibited substances are listed in FDA regulations (21 CFR Part 189) and labeled as 'PROHIBITED' or 'PROHIBITED WITH EXCEPTIONS'."
     },
     {
       "alertLevel": "High",
-      "title": "Modified: United States Allergen List - Major Food Allergens",
+      "title": "Added: United States Allergen List - Major Food Allergens",
       "country": "United States",
       "topic": "Allergen List",
       "actionRequired": "Review impacted seasoning/snack formulations, labels, COAs and export approvals.",
       "sourceUrl": "https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/food-allergies",
-      "details": "Old: Milk, eggs, fish, Crustacean shellfish, tree nuts, peanuts, wheat, soybeans, and sesame.. New: milk, eggs, fish, Crustacean shellfish, tree nuts, peanuts, wheat, soybeans, and sesame. These 9 allergens are identified by law (FALCPA and FASTER Act). Sesame was added effective January 1, 2023."
+      "details": "New: Milk, Eggs, Fish, Crustacean shellfish, Tree nuts, Peanuts, Wheat, Soybeans, Sesame. The FASTER Act (effective January 1, 2023) declared sesame as the 9th major food allergen. These allergens account for 90 percent of food allergies and serious allergic reactions in the U.S."
     },
     {
       "alertLevel": "High",
@@ -143,7 +125,7 @@
       "topic": "Contaminant Limits",
       "actionRequired": "Review impacted seasoning/snack formulations, labels, COAs and export approvals.",
       "sourceUrl": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=contaminant-levels",
-      "details": "New: 1. This is a Guidance Level for Acid-hydrolyzed protein and Asian-style sauces."
+      "details": "New: 1. Guidance Level for 3-MCPD."
     },
     {
       "alertLevel": "High",
@@ -152,137 +134,146 @@
       "topic": "Contaminant Limits",
       "actionRequired": "Review impacted seasoning/snack formulations, labels, COAs and export approvals.",
       "sourceUrl": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=contaminant-levels",
-      "details": "New: 20. This is an Action Level. Applies to general foods, and specifically peanuts and peanut products."
+      "details": "New: 20. Action Level for total Aflatoxins."
     },
     {
       "alertLevel": "High",
-      "title": "Modified: United States Labelling Requirement - 'Gluten-free' claim",
+      "title": "Added: United States Contaminant Limits - Chemical Contaminants (Tolerances, Action Levels, Guidance Levels)",
+      "country": "United States",
+      "topic": "Contaminant Limits",
+      "actionRequired": "Review impacted seasoning/snack formulations, labels, COAs and export approvals.",
+      "sourceUrl": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=contaminant-levels",
+      "details": "New: Verification required. Manufacturers must check the Chemical Contaminants Transparency Tool for specific tolerances, action levels, guidance levels, derived intervention levels, recommended maximum levels, and advisory levels for poisonous or deleterious substances in human food. Tolerances and action levels are defined in 21 CFR parts 109 and 509."
+    },
+    {
+      "alertLevel": "High",
+      "title": "Added: United States Labelling Requirement - Allergen Preventive Controls",
       "country": "United States",
       "topic": "Labelling Requirement",
       "actionRequired": "Review impacted seasoning/snack formulations, labels, COAs and export approvals.",
       "sourceUrl": "https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/food-allergies",
-      "details": "Old: Must meet a defined standard for gluten content. Compliance requirements for fermented and hydrolyzed foods bearing the claim.. New: Must meet defined standard for gluten content. FDA issued a final rule defining 'gluten-free' for food labeling and compliance requirements for fermented and hydrolyzed foods."
+      "details": "New: Compliance with 21 CFR part 117. The 'Current Good Manufacturing Practice, Hazard Analysis, and Risk-Based Preventive Controls for Human Food' rule (CGMP & PC rule, 21 CFR part 117) establishes requirements for allergen preventive controls to prevent allergen cross-contact in manufacturing and packaging and to prevent undeclared allergens."
     },
     {
       "alertLevel": "High",
-      "title": "Added: United States Labelling Requirement - Allergen preventive controls",
+      "title": "Added: United States Labelling Requirement - Cochineal extract and carmine",
       "country": "United States",
       "topic": "Labelling Requirement",
       "actionRequired": "Review impacted seasoning/snack formulations, labels, COAs and export approvals.",
       "sourceUrl": "https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/food-allergies",
-      "details": "New: Required to prevent cross-contact and undeclared allergens. Established by the 'Current Good Manufacturing Practice, Hazard Analysis, and Risk-Based Preventive Controls for Human Food' rule (21 CFR part 117). Facilities must have written procedures."
+      "details": "New: Mandatory declaration. Color additives made from cochineal extract and carmine must be declared on the label."
     },
     {
       "alertLevel": "High",
-      "title": "Modified: United States Labelling Requirement - Cochineal extract and carmine",
+      "title": "Added: United States Labelling Requirement - FD&C Yellow No. 5",
       "country": "United States",
       "topic": "Labelling Requirement",
       "actionRequired": "Review impacted seasoning/snack formulations, labels, COAs and export approvals.",
       "sourceUrl": "https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/food-allergies",
-      "details": "Old: Must be declared on the label.. New: Must be declared on the label. Identified as allergenic substances derived from insects."
+      "details": "New: Mandatory declaration. The FDA requires all products containing FD&C Yellow No. 5 to identify it on their labels."
     },
     {
       "alertLevel": "High",
-      "title": "Added: United States Labelling Requirement - Declaration of Major Food Allergens",
+      "title": "Added: United States Labelling Requirement - Gluten-free claim",
       "country": "United States",
       "topic": "Labelling Requirement",
       "actionRequired": "Review impacted seasoning/snack formulations, labels, COAs and export approvals.",
       "sourceUrl": "https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/food-allergies",
-      "details": "New: Must be declared. The food source of a major food allergen must appear in parentheses following the ingredient name OR immediately after or next to the ingredient list in a 'contains' statement. Specific types of tree nuts, fish, and Crustacean shellfish must be declared."
+      "details": "New: Defined standard for gluten content. The FDA issued a final rule defining 'gluten-free' for food labeling. A separate rule (August 12, 2020) establishes compliance requirements for fermented and hydrolyzed foods bearing the 'gluten-free' claim."
     },
     {
       "alertLevel": "High",
-      "title": "Modified: United States Labelling Requirement - FD&C Yellow No. 5",
+      "title": "Added: United States Labelling Requirement - Major Food Allergen Declaration",
       "country": "United States",
       "topic": "Labelling Requirement",
       "actionRequired": "Review impacted seasoning/snack formulations, labels, COAs and export approvals.",
       "sourceUrl": "https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/food-allergies",
-      "details": "Old: Must be identified on labels.. New: Must be identified on labels. Required due to potential hypersensitivity reactions in some individuals."
+      "details": "New: Mandatory. FALCPA requires foods or ingredients containing a 'major food allergen' to be specifically labeled with the name of the allergen source. This applies to most packaged food products, including dietary supplements."
     },
     {
       "alertLevel": "High",
-      "title": "Modified: United States Labelling Requirement - Sulfiting agents (e.g., sodium bisulfite)",
+      "title": "Added: United States Labelling Requirement - Major Food Allergen Declaration Format",
       "country": "United States",
       "topic": "Labelling Requirement",
       "actionRequired": "Review impacted seasoning/snack formulations, labels, COAs and export approvals.",
       "sourceUrl": "https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/food-allergies",
-      "details": "Old: Must be declared on food labels when present in food and the concentration is ≥10 total sulfites.. New: ≥10. Must be declared on food labels when present at or above the specified concentration due to potential adverse reactions."
+      "details": "New: Mandatory. The allergen's food source must be declared at least once on the food label either in parentheses following the ingredient name (e.g., 'lecithin (soy)') or immediately after or next to the ingredient list in a 'contains' statement (e.g., 'Contains wheat, milk, and soy.')."
+    },
+    {
+      "alertLevel": "High",
+      "title": "Added: United States Labelling Requirement - Specific Allergen Declaration",
+      "country": "United States",
+      "topic": "Labelling Requirement",
+      "actionRequired": "Review impacted seasoning/snack formulations, labels, COAs and export approvals.",
+      "sourceUrl": "https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/food-allergies",
+      "details": "New: Mandatory. The type of tree nut (e.g., almonds, pecans, walnuts), and the species of fish (e.g., bass, flounder, cod) and Crustacean shellfish (e.g., crab, lobster, shrimp) must be declared."
+    },
+    {
+      "alertLevel": "High",
+      "title": "Added: United States Labelling Requirement - Sulfiting agents (e.g., sodium bisulfite)",
+      "country": "United States",
+      "topic": "Labelling Requirement",
+      "actionRequired": "Review impacted seasoning/snack formulations, labels, COAs and export approvals.",
+      "sourceUrl": "https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/food-allergies",
+      "details": "New: ≥10. Sulfiting agents must be declared on food labels when present in food at a concentration of ≥10 parts per million total sulfites."
     },
     {
       "alertLevel": "Moderate",
-      "title": "Added: China Additive Limits - Food Additives",
+      "title": "Modified: China Additive Limits - Food Additives",
       "country": "China",
       "topic": "Additive Limits",
       "actionRequired": "Regulatory/QA review recommended.",
       "sourceUrl": "https://apps.fas.usda.gov/newgainapi/api/report/downloadreportbyfilename?filename=Standard+for+Food+Additive+Use+-+GB2760-2015_Beijing_China+-+Peoples+Republic+of_4-28-2015.pdf",
-      "details": "New: Verification required as per GB 2760-2015. The provided text for this URL was a raw PDF stream and could not be parsed to extract specific limits. This rule is inferred from the document title, indicating the existence of a standard for food additive use."
+      "details": "Old: Verification required as per GB 2760-2015. New: Verification required against GB 2760-2015. The use of food additives must comply with the specified national standard. Specific limits and conditions are detailed within the standard."
     },
     {
       "alertLevel": "Moderate",
-      "title": "Added: Codex Additive Limits - Permitted food additives",
+      "title": "Modified: Codex Additive Limits - Permitted food additives",
       "country": "Codex",
       "topic": "Additive Limits",
       "actionRequired": "Regulatory/QA review recommended.",
       "sourceUrl": "https://www.fao.org/fao-who-codexalimentarius/codex-texts/dbs/gsfa/en/",
-      "details": "New: Verification required via GSFA Online Database. The Codex General Standard for Food Additives (GSFA, Codex STAN 192-1995) sets forth the conditions under which permitted food additives may be used in all foods. Users are encouraged to consult the database and its Preamble for specific provisions."
+      "details": "Old: Verification required via GSFA Online Database. New: Verification required via GSFA database. The Codex General Standard for Food Additives (GSFA, Codex STAN 192-1995) sets forth the conditions under which permitted food additives may be used in all foods. Users are encouraged to consult the online database and its Preamble for specific provisions."
     },
     {
       "alertLevel": "Moderate",
-      "title": "Removed: Codex Additive Limits - Permitted food additives",
-      "country": "Codex",
-      "topic": "Additive Limits",
-      "actionRequired": "Regulatory/QA review recommended.",
-      "sourceUrl": "https://www.fao.org/fao-who-codexalimentarius/codex-texts/dbs/gsfa/en/",
-      "details": "Old: Verification required via GSFA Online Database. Rule no longer appeared in the latest extraction. Verify whether source changed or extraction missed it."
-    },
-    {
-      "alertLevel": "Moderate",
-      "title": "Added: Codex Contaminant Limits - Contaminants (e.g., mycotoxins, metals like arsenic, lead, mercury)",
+      "title": "Added: Codex Contaminant Limits - Contaminants and naturally occurring toxicants",
       "country": "Codex",
       "topic": "Contaminant Limits",
       "actionRequired": "Regulatory/QA review recommended.",
       "sourceUrl": "https://www.fao.org/fao-who-codexalimentarius/thematic-areas/contaminants/en/",
-      "details": "New: Verification required via Codex General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995). Codex establishes Maximum Levels (MLs) for contaminants in food and feed, which are the maximum concentrations legally permitted to protect human health. The Codex Committee on Contaminants in Food (CCCF) establishes and endorses these levels."
+      "details": "New: Verification required via Codex General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995) and CCCF established levels. Codex establishes Maximum Levels (MLs) for contaminants in food or feed commodities to protect human health, keeping levels as low as possible based on sound scientific evidence. The Codex Committee on Contaminants in Food (CCCF) establishes and endorses these permitted maximum levels or guideline levels."
     },
     {
       "alertLevel": "Moderate",
-      "title": "Added: Codex Contaminant Limits - Mycotoxins",
+      "title": "Removed: Codex Contaminant Limits - Contaminants (e.g., mycotoxins, metals like arsenic, lead, mercury)",
       "country": "Codex",
       "topic": "Contaminant Limits",
       "actionRequired": "Regulatory/QA review recommended.",
       "sourceUrl": "https://www.fao.org/fao-who-codexalimentarius/thematic-areas/contaminants/en/",
-      "details": "New: Follow Code of Practice for the Prevention and Reduction of Mycotoxins in Spices (CXC 78-2017). A specific Code of Practice is available for the prevention and reduction of mycotoxin contamination in spices."
+      "details": "Old: Verification required via Codex General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995). Rule no longer appeared in the latest extraction. Verify whether source changed or extraction missed it."
     },
     {
       "alertLevel": "Moderate",
-      "title": "Removed: Codex Contaminant Limits - Contaminants (general)",
+      "title": "Removed: Codex Contaminant Limits - Mycotoxins",
       "country": "Codex",
       "topic": "Contaminant Limits",
       "actionRequired": "Regulatory/QA review recommended.",
       "sourceUrl": "https://www.fao.org/fao-who-codexalimentarius/thematic-areas/contaminants/en/",
-      "details": "Old: Maximum levels (MLs) established by Codex must be adhered to. Verification required via relevant Codex texts.. Rule no longer appeared in the latest extraction. Verify whether source changed or extraction missed it."
+      "details": "Old: Follow Code of Practice for the Prevention and Reduction of Mycotoxins in Spices (CXC 78-2017). Rule no longer appeared in the latest extraction. Verify whether source changed or extraction missed it."
     },
     {
       "alertLevel": "Moderate",
-      "title": "Removed: Codex Contaminant Limits - Contaminants and Toxins",
-      "country": "Codex",
-      "topic": "Contaminant Limits",
-      "actionRequired": "Regulatory/QA review recommended.",
-      "sourceUrl": "https://www.fao.org/fao-who-codexalimentarius/thematic-areas/contaminants/en/",
-      "details": "Old: Verification required via CXS 193-1995. Rule no longer appeared in the latest extraction. Verify whether source changed or extraction missed it."
-    },
-    {
-      "alertLevel": "Moderate",
-      "title": "Added: European Union Additive Limits - Food additives",
+      "title": "Added: European Union Additive Limits - Approved food additives and their conditions of use",
       "country": "European Union",
       "topic": "Additive Limits",
       "actionRequired": "Regulatory/QA review recommended.",
       "sourceUrl": "https://food.ec.europa.eu/food-safety/food-improvement-agents/additives/database_en",
-      "details": "New: Verification required. The database serves as a tool to inform about food additives approved for use in the EU and their conditions of use, based on Annex II of Regulation (EC) No 1333/2008."
+      "details": "New: Check official source. Verification required against the Union list of food additives in Annex II of Regulation (EC) No 1333/2008."
     },
     {
       "alertLevel": "Moderate",
-      "title": "Removed: European Union Additive Limits - Approved food additives and conditions of use",
+      "title": "Removed: European Union Additive Limits - Food additives",
       "country": "European Union",
       "topic": "Additive Limits",
       "actionRequired": "Regulatory/QA review recommended.",
@@ -291,12 +282,21 @@
     },
     {
       "alertLevel": "Moderate",
-      "title": "Added: European Union Microbiology Limits - Foodborne bacteria, toxins, and metabolites (e.g., Salmonella, Listeria monocytogenes, Enterobacter sakazakii, staphylococcal enterotoxins, histamine)",
+      "title": "Added: European Union Microbiology Limits - Competence of laboratories conducting shelf-life studies (challenge tests and durability studies) for Listeria monocytogenes",
       "country": "European Union",
       "topic": "Microbiology Limits",
       "actionRequired": "Regulatory/QA review recommended.",
       "sourceUrl": "https://food.ec.europa.eu/food-safety/biological-safety/food-hygiene/microbiological-criteria_en",
-      "details": "New: Verification required. Commission Regulation (EC) No 2073/2005 lays down food safety criteria for relevant foodborne bacteria, their toxins and metabolites, and process hygiene criteria for foods placed on the market."
+      "details": "New: Check official source. Laboratories must comply with food safety criteria in Regulation (EC) No 2073/2005 and follow the EURL Lm Guidance Document for competence evaluation."
+    },
+    {
+      "alertLevel": "Moderate",
+      "title": "Added: European Union Microbiology Limits - Food safety criteria for relevant foodborne bacteria, toxins, metabolites (e.g., Salmonella, Listeria monocytogenes, Enterobacter sakazakii, staphylococcal enterotoxins, histamine) and process hygiene criteria",
+      "country": "European Union",
+      "topic": "Microbiology Limits",
+      "actionRequired": "Regulatory/QA review recommended.",
+      "sourceUrl": "https://food.ec.europa.eu/food-safety/biological-safety/food-hygiene/microbiological-criteria_en",
+      "details": "New: Check official source. Compliance required with Commission Regulation (EC) No 2073/2005."
     },
     {
       "alertLevel": "Moderate",
@@ -309,66 +309,48 @@
     },
     {
       "alertLevel": "Moderate",
-      "title": "Removed: GCC/GSO Additive Limits - Permitted food additives and their limits",
-      "country": "GCC/GSO",
-      "topic": "Additive Limits",
-      "actionRequired": "Regulatory/QA review recommended.",
-      "sourceUrl": "https://www.gso.org.sa/store/",
-      "details": "Old: Verification required as per GSO 9:2022 and related standards. Rule no longer appeared in the latest extraction. Verify whether source changed or extraction missed it."
-    },
-    {
-      "alertLevel": "Moderate",
-      "title": "Removed: GCC/GSO Allergen List - Allergen declaration on labels",
-      "country": "GCC/GSO",
-      "topic": "Allergen List",
-      "actionRequired": "Regulatory/QA review recommended.",
-      "sourceUrl": "https://www.gso.org.sa/store/",
-      "details": "Old: Verification required as per GSO 9:2022. Rule no longer appeared in the latest extraction. Verify whether source changed or extraction missed it."
-    },
-    {
-      "alertLevel": "Moderate",
-      "title": "Removed: GCC/GSO Labelling Requirement - General labelling requirements for prepackaged foodstuffs",
+      "title": "Added: GCC/GSO Labelling Requirement - General requirements for Halal food",
       "country": "GCC/GSO",
       "topic": "Labelling Requirement",
       "actionRequired": "Regulatory/QA review recommended.",
       "sourceUrl": "https://www.gso.org.sa/store/",
-      "details": "Old: Verification required as per GSO 9:2022. Rule no longer appeared in the latest extraction. Verify whether source changed or extraction missed it."
+      "details": "New: Verification required as per GSO 2055-1:2015. This standard specifies the general requirements for Halal food, which may include labelling for Halal certification."
     },
     {
       "alertLevel": "Moderate",
-      "title": "Removed: GCC/GSO Labelling Requirement - Mandatory shelf life declaration",
+      "title": "Added: GCC/GSO Labelling Requirement - Labelling of pre-packaged foodstuffs",
       "country": "GCC/GSO",
       "topic": "Labelling Requirement",
       "actionRequired": "Regulatory/QA review recommended.",
       "sourceUrl": "https://www.gso.org.sa/store/",
-      "details": "Old: Verification required as per GSO 150-1:2013. Rule no longer appeared in the latest extraction. Verify whether source changed or extraction missed it."
+      "details": "New: Verification required as per GSO 9:2022. This standard specifies the general requirements for the labelling of pre-packaged foodstuffs."
     },
     {
       "alertLevel": "Moderate",
-      "title": "Removed: GCC/GSO Labelling Requirement - Optional shelf life declaration",
+      "title": "Added: GCC/GSO Labelling Requirement - Mandatory shelf life for food products",
       "country": "GCC/GSO",
       "topic": "Labelling Requirement",
       "actionRequired": "Regulatory/QA review recommended.",
       "sourceUrl": "https://www.gso.org.sa/store/",
-      "details": "Old: Verification required as per GSO 150-2:2013. Rule no longer appeared in the latest extraction. Verify whether source changed or extraction missed it."
+      "details": "New: Verification required as per GSO 150-1:2013. This standard specifies the mandatory shelf life periods for various food products."
     },
     {
       "alertLevel": "Moderate",
-      "title": "Removed: GCC/GSO Salt / Sodium Limits - Sodium content declaration and/or limits",
+      "title": "Added: GCC/GSO Labelling Requirement - Quantity of product in pre-packaged packages",
       "country": "GCC/GSO",
-      "topic": "Salt / Sodium Limits",
-      "actionRequired": "Regulatory/QA review recommended.",
-      "sourceUrl": "https://www.gso.org.sa/store/",
-      "details": "Old: Verification required as per GSO 9:2022 and related standards. Rule no longer appeared in the latest extraction. Verify whether source changed or extraction missed it."
-    },
-    {
-      "alertLevel": "Moderate",
-      "title": "Added: GCC Labelling Requirement - General labelling requirements",
-      "country": "GCC",
       "topic": "Labelling Requirement",
       "actionRequired": "Regulatory/QA review recommended.",
       "sourceUrl": "https://www.gso.org.sa/store/",
-      "details": "New: Verification required. This regulation sets out the general requirements for labeling of prepackaged food products."
+      "details": "New: Verification required as per GSO OIML R87:2021. This standard specifies requirements for the quantity of product in pre-packaged packages, ensuring accurate net content declaration."
+    },
+    {
+      "alertLevel": "Moderate",
+      "title": "Added: GCC/GSO Labelling Requirement - Requirements for labels of packaged products",
+      "country": "GCC/GSO",
+      "topic": "Labelling Requirement",
+      "actionRequired": "Regulatory/QA review recommended.",
+      "sourceUrl": "https://www.gso.org.sa/store/",
+      "details": "New: Verification required as per GSO OIML R79:2021. This standard specifies the requirements for labels of packaged products, ensuring accurate information for consumers."
     },
     {
       "alertLevel": "Moderate",
@@ -381,43 +363,7 @@
     },
     {
       "alertLevel": "Moderate",
-      "title": "Removed: GCC Labelling Requirement - Halal food general requirements",
-      "country": "GCC",
-      "topic": "Labelling Requirement",
-      "actionRequired": "Regulatory/QA review recommended.",
-      "sourceUrl": "https://www.gso.org.sa/store/",
-      "details": "Old: Verification required. Rule no longer appeared in the latest extraction. Verify whether source changed or extraction missed it."
-    },
-    {
-      "alertLevel": "Moderate",
-      "title": "Removed: GCC Labelling Requirement - Mandatory expiration dates",
-      "country": "GCC",
-      "topic": "Labelling Requirement",
-      "actionRequired": "Regulatory/QA review recommended.",
-      "sourceUrl": "https://www.gso.org.sa/store/",
-      "details": "Old: Verification required. Rule no longer appeared in the latest extraction. Verify whether source changed or extraction missed it."
-    },
-    {
-      "alertLevel": "Moderate",
-      "title": "Removed: GCC Labelling Requirement - Voluntary expiration dates",
-      "country": "GCC",
-      "topic": "Labelling Requirement",
-      "actionRequired": "Regulatory/QA review recommended.",
-      "sourceUrl": "https://www.gso.org.sa/store/",
-      "details": "Old: Verification required. Rule no longer appeared in the latest extraction. Verify whether source changed or extraction missed it."
-    },
-    {
-      "alertLevel": "Moderate",
-      "title": "Added: GCC Microbiology Limits - Microbiological limits",
-      "country": "GCC",
-      "topic": "Microbiology Limits",
-      "actionRequired": "Regulatory/QA review recommended.",
-      "sourceUrl": "https://www.gso.org.sa/store/standards/GSO:693280/GSO1016:2015?lang=en",
-      "details": "New: Verification required. This regulation specifies microbiological limits for various foodstuffs and food ingredients used in the food industry."
-    },
-    {
-      "alertLevel": "Moderate",
-      "title": "Removed: GCC Microbiology Limits - Microbiological criteria",
+      "title": "Removed: GCC Microbiology Limits - Microbiological limits",
       "country": "GCC",
       "topic": "Microbiology Limits",
       "actionRequired": "Regulatory/QA review recommended.",
@@ -426,34 +372,52 @@
     },
     {
       "alertLevel": "Moderate",
-      "title": "Added: India Additive Limits - Food Additives",
+      "title": "Modified: India Additive Limits - Food Additives",
       "country": "India",
       "topic": "Additive Limits",
       "actionRequired": "Regulatory/QA review recommended.",
       "sourceUrl": "https://www.fssai.gov.in/upload/uploadfiles/files/Compendium_Food_Additives_Regulations_20_12_2022.pdf",
-      "details": "New: Verification required. Specific additive limits and permitted uses must be verified against the full regulation document."
+      "details": "Old: Verification required. New: Verification required as per FSSAI Compendium of Food Additives Regulations.. Specific permitted food additives and their limits for these food categories must be verified against the detailed schedules within the regulation."
     },
     {
       "alertLevel": "Moderate",
-      "title": "Added: India Labelling Requirement - General Labelling Requirements",
+      "title": "Removed: India Allergen List - Allergen Declaration",
+      "country": "India",
+      "topic": "Allergen List",
+      "actionRequired": "Regulatory/QA review recommended.",
+      "sourceUrl": "https://www.fssai.gov.in/upload/uploadfiles/files/Compendium_Labelling_Display_30_06_2022.pdf",
+      "details": "Old: Mandatory declaration; verification required. Rule no longer appeared in the latest extraction. Verify whether source changed or extraction missed it."
+    },
+    {
+      "alertLevel": "Moderate",
+      "title": "Added: India Labelling Requirement - General Labelling and Display",
       "country": "India",
       "topic": "Labelling Requirement",
       "actionRequired": "Regulatory/QA review recommended.",
       "sourceUrl": "https://www.fssai.gov.in/upload/uploadfiles/files/Compendium_Labelling_Display_30_06_2022.pdf",
-      "details": "New: Verification required. All general labelling and display requirements must be verified against the full regulation document."
+      "details": "New: Verification required as per FSSAI Compendium of Labelling & Display Regulations.. All general labelling and display requirements, including allergen declarations, nutritional information, and other warnings, must be verified against the detailed regulations."
     },
     {
       "alertLevel": "Moderate",
-      "title": "Added: Indonesia Additive Limits - Food Additive Limits",
+      "title": "Removed: India Labelling Requirement - General Labelling Requirements",
+      "country": "India",
+      "topic": "Labelling Requirement",
+      "actionRequired": "Regulatory/QA review recommended.",
+      "sourceUrl": "https://www.fssai.gov.in/upload/uploadfiles/files/Compendium_Labelling_Display_30_06_2022.pdf",
+      "details": "Old: Verification required. Rule no longer appeared in the latest extraction. Verify whether source changed or extraction missed it."
+    },
+    {
+      "alertLevel": "Moderate",
+      "title": "Added: Indonesia Additive Limits - Food Additives",
       "country": "Indonesia",
       "topic": "Additive Limits",
       "actionRequired": "Regulatory/QA review recommended.",
       "sourceUrl": "https://jdih.pom.go.id/",
-      "details": "New: Verification required. Specific limits for food additives in processed foods, including seasoning and snack products, are contained within the regulations listed under 'Pangan Olahan'."
+      "details": "New: Verification required. Specific limits for food additives in processed foods must be verified by consulting the relevant regulations listed under 'Pangan Olahan' in the BPOM JDIH database."
     },
     {
       "alertLevel": "Moderate",
-      "title": "Removed: Indonesia Additive Limits - Food Additives",
+      "title": "Removed: Indonesia Additive Limits - Food Additive Limits",
       "country": "Indonesia",
       "topic": "Additive Limits",
       "actionRequired": "Regulatory/QA review recommended.",
@@ -462,7 +426,16 @@
     },
     {
       "alertLevel": "Moderate",
-      "title": "Removed: Indonesia Allergen List - Allergen declaration",
+      "title": "Added: Indonesia Allergen List - Allergen declaration",
+      "country": "Indonesia",
+      "topic": "Allergen List",
+      "actionRequired": "Regulatory/QA review recommended.",
+      "sourceUrl": "https://jdih.pom.go.id/",
+      "details": "New: Verification required. Specific requirements for allergen declaration in processed foods must be verified by consulting the relevant regulations listed under 'Pangan Olahan' in the BPOM JDIH database."
+    },
+    {
+      "alertLevel": "Moderate",
+      "title": "Removed: Indonesia Allergen List - Allergen Declaration",
       "country": "Indonesia",
       "topic": "Allergen List",
       "actionRequired": "Regulatory/QA review recommended.",
@@ -471,16 +444,16 @@
     },
     {
       "alertLevel": "Moderate",
-      "title": "Added: Indonesia Contaminant Limits - Chemical Contaminant Limits",
+      "title": "Added: Indonesia Contaminant Limits - Contaminants (e.g., heavy metals, mycotoxins)",
       "country": "Indonesia",
       "topic": "Contaminant Limits",
       "actionRequired": "Regulatory/QA review recommended.",
       "sourceUrl": "https://jdih.pom.go.id/",
-      "details": "New: Verification required. Specific chemical contaminant limits for processed foods, including seasoning and snack products, are contained within the regulations listed under 'Pangan Olahan'."
+      "details": "New: Verification required. Specific contaminant limits for processed foods must be verified by consulting the relevant regulations listed under 'Pangan Olahan' in the BPOM JDIH database."
     },
     {
       "alertLevel": "Moderate",
-      "title": "Removed: Indonesia Contaminant Limits - Contaminants (e.g., heavy metals, pesticides)",
+      "title": "Removed: Indonesia Contaminant Limits - Chemical Contaminant Limits",
       "country": "Indonesia",
       "topic": "Contaminant Limits",
       "actionRequired": "Regulatory/QA review recommended.",
@@ -489,34 +462,25 @@
     },
     {
       "alertLevel": "Moderate",
-      "title": "Added: Indonesia Labelling Requirement - Food Categorization",
+      "title": "Modified: Indonesia Labelling Requirement - Food Categorization",
       "country": "Indonesia",
       "topic": "Labelling Requirement",
       "actionRequired": "Regulatory/QA review recommended.",
       "sourceUrl": "https://jdih.pom.go.id/",
-      "details": "New: Verification required. This regulation defines food categories, which are essential for applying specific additive, contaminant, and other limits for processed foods, including seasoning and snack products."
+      "details": "Old: Verification required. New: Verification required. Food categories for processed foods must be verified by consulting PERKABPOM Nomor 34 Tahun 2019 Tentang Kategori Pangan, which is available in the BPOM JDIH database."
     },
     {
       "alertLevel": "Moderate",
-      "title": "Added: Indonesia Labelling Requirement - General Labelling Requirements",
+      "title": "Added: Indonesia Labelling Requirement - General labelling requirements",
       "country": "Indonesia",
       "topic": "Labelling Requirement",
       "actionRequired": "Regulatory/QA review recommended.",
       "sourceUrl": "https://jdih.pom.go.id/",
-      "details": "New: Verification required. General labelling requirements, including warnings, for processed foods, including seasoning and snack products, are contained within the regulations listed under 'Pangan Olahan'."
+      "details": "New: Verification required. General labelling requirements and warnings for processed foods must be verified by consulting the relevant regulations listed under 'Pangan Olahan' in the BPOM JDIH database."
     },
     {
       "alertLevel": "Moderate",
-      "title": "Removed: Indonesia Labelling Requirement - Food Category Definition",
-      "country": "Indonesia",
-      "topic": "Labelling Requirement",
-      "actionRequired": "Regulatory/QA review recommended.",
-      "sourceUrl": "https://jdih.pom.go.id/",
-      "details": "Old: Verification required. Rule no longer appeared in the latest extraction. Verify whether source changed or extraction missed it."
-    },
-    {
-      "alertLevel": "Moderate",
-      "title": "Removed: Indonesia Labelling Requirement - Labelling warnings/information",
+      "title": "Removed: Indonesia Labelling Requirement - General Labelling Requirements",
       "country": "Indonesia",
       "topic": "Labelling Requirement",
       "actionRequired": "Regulatory/QA review recommended.",
@@ -525,16 +489,16 @@
     },
     {
       "alertLevel": "Moderate",
-      "title": "Added: Indonesia Microbiology Limits - Microbiological Contaminant Limits",
+      "title": "Added: Indonesia Microbiology Limits - Microbiological criteria",
       "country": "Indonesia",
       "topic": "Microbiology Limits",
       "actionRequired": "Regulatory/QA review recommended.",
       "sourceUrl": "https://jdih.pom.go.id/",
-      "details": "New: Verification required. Specific microbiological limits for processed foods, including seasoning and snack products, are contained within the regulations listed under 'Pangan Olahan'."
+      "details": "New: Verification required. Specific microbiological limits for processed foods must be verified by consulting the relevant regulations listed under 'Pangan Olahan' in the BPOM JDIH database."
     },
     {
       "alertLevel": "Moderate",
-      "title": "Removed: Indonesia Microbiology Limits - Microbiological contaminants",
+      "title": "Removed: Indonesia Microbiology Limits - Microbiological Contaminant Limits",
       "country": "Indonesia",
       "topic": "Microbiology Limits",
       "actionRequired": "Regulatory/QA review recommended.",
@@ -543,16 +507,16 @@
     },
     {
       "alertLevel": "Moderate",
-      "title": "Added: Indonesia Salt / Sodium Limits - Salt/Sodium Limits",
+      "title": "Added: Indonesia Salt / Sodium Limits - Salt/Sodium content",
       "country": "Indonesia",
       "topic": "Salt / Sodium Limits",
       "actionRequired": "Regulatory/QA review recommended.",
       "sourceUrl": "https://jdih.pom.go.id/",
-      "details": "New: Verification required. Specific salt/sodium limits for processed foods, including seasoning and snack products, are contained within the regulations listed under 'Pangan Olahan'."
+      "details": "New: Verification required. Specific salt/sodium limits for processed foods must be verified by consulting the relevant regulations listed under 'Pangan Olahan' in the BPOM JDIH database."
     },
     {
       "alertLevel": "Moderate",
-      "title": "Removed: Indonesia Salt / Sodium Limits - Salt/Sodium content",
+      "title": "Removed: Indonesia Salt / Sodium Limits - Salt/Sodium Limits",
       "country": "Indonesia",
       "topic": "Salt / Sodium Limits",
       "actionRequired": "Regulatory/QA review recommended.",
@@ -561,165 +525,201 @@
     },
     {
       "alertLevel": "Moderate",
-      "title": "Modified: Japan Additive Limits - Food Additives",
+      "title": "Added: Japan Additive Limits - Food Additives",
       "country": "Japan",
       "topic": "Additive Limits",
       "actionRequired": "Regulatory/QA review recommended.",
       "sourceUrl": "https://www.mhlw.go.jp/english/topics/foodsafety/",
-      "details": "Old: Verification required. New: Verification required. Compliance with regulations concerning food additives is required."
+      "details": "New: Verification required for permitted additives and usage limits. Regulations exist for the use of food additives."
     },
     {
       "alertLevel": "Moderate",
-      "title": "Removed: Japan Additive Limits - Food and additive standards and criteria",
-      "country": "Japan",
-      "topic": "Additive Limits",
-      "actionRequired": "Regulatory/QA review recommended.",
-      "sourceUrl": "https://www.japaneselawtranslation.go.jp/en/laws/view/3687/en",
-      "details": "Old: Verification required. Rule no longer appeared in the latest extraction. Verify whether source changed or extraction missed it."
-    },
-    {
-      "alertLevel": "Moderate",
-      "title": "Removed: Japan Additive Limits - Specifications and Standards for Food and Food Additives",
+      "title": "Added: Japan Additive Limits - Food Additives",
       "country": "Japan",
       "topic": "Additive Limits",
       "actionRequired": "Regulatory/QA review recommended.",
       "sourceUrl": "http://www.jetro.go.jp/en/reports/regulations/pdf/testing2009dec-e.pdf",
+      "details": "New: Verification required for specifications and standards for food additives. This document provides detailed specifications and standards for food additives."
+    },
+    {
+      "alertLevel": "Moderate",
+      "title": "Removed: Japan Additive Limits - Food Additives",
+      "country": "Japan",
+      "topic": "Additive Limits",
+      "actionRequired": "Regulatory/QA review recommended.",
+      "sourceUrl": "https://www.mhlw.go.jp/english/topics/foodsafety/",
       "details": "Old: Verification required. Rule no longer appeared in the latest extraction. Verify whether source changed or extraction missed it."
     },
     {
       "alertLevel": "Moderate",
-      "title": "Removed: Japan Additive Limits - Unapproved additives",
-      "country": "Japan",
-      "topic": "Additive Limits",
-      "actionRequired": "Regulatory/QA review recommended.",
-      "sourceUrl": "https://www.japaneselawtranslation.go.jp/en/laws/view/3687/en",
-      "details": "Old: Prohibition. Rule no longer appeared in the latest extraction. Verify whether source changed or extraction missed it."
-    },
-    {
-      "alertLevel": "Moderate",
-      "title": "Modified: Japan Contaminant Limits - Agricultural Chemical Residues",
+      "title": "Added: Japan Contaminant Limits - Agricultural Chemical Residues",
       "country": "Japan",
       "topic": "Contaminant Limits",
       "actionRequired": "Regulatory/QA review recommended.",
       "sourceUrl": "https://www.mhlw.go.jp/english/topics/foodsafety/",
-      "details": "Old: Verification required. New: Verification required. Compliance with the Positive List System for Agricultural Chemical Residues in Food is required."
+      "details": "New: Verification required under the Positive List System. The Positive List System sets maximum residue limits for agricultural chemicals in food."
     },
     {
       "alertLevel": "Moderate",
-      "title": "Removed: Japan Contaminant Limits - Contamination or foreign substances causing harm",
+      "title": "Added: Japan Contaminant Limits - Bovine Spongiform Encephalopathy (BSE)",
       "country": "Japan",
       "topic": "Contaminant Limits",
       "actionRequired": "Regulatory/QA review recommended.",
-      "sourceUrl": "https://www.japaneselawtranslation.go.jp/en/laws/view/3687/en",
-      "details": "Old: Prohibition. Rule no longer appeared in the latest extraction. Verify whether source changed or extraction missed it."
+      "sourceUrl": "https://www.mhlw.go.jp/english/topics/foodsafety/",
+      "details": "New: Verification required for BSE-related regulations. Regulations are in place concerning BSE."
     },
     {
       "alertLevel": "Moderate",
-      "title": "Removed: Japan Contaminant Limits - Residues of agricultural chemicals, feed additives, and pharmaceuticals for animals",
+      "title": "Added: Japan Contaminant Limits - General Food Specifications and Standards",
       "country": "Japan",
       "topic": "Contaminant Limits",
       "actionRequired": "Regulatory/QA review recommended.",
-      "sourceUrl": "https://www.japaneselawtranslation.go.jp/en/laws/view/3687/en",
-      "details": "Old: Prohibition if exceeding MHLW specified quantity. Rule no longer appeared in the latest extraction. Verify whether source changed or extraction missed it."
+      "sourceUrl": "http://www.jetro.go.jp/en/reports/regulations/pdf/testing2009dec-e.pdf",
+      "details": "New: Verification required for specifications and standards for food. This document provides detailed specifications and standards for food, which may include contaminant limits."
     },
     {
       "alertLevel": "Moderate",
-      "title": "Removed: Japan Contaminant Limits - Toxic or harmful substances in food/additives",
+      "title": "Removed: Japan Contaminant Limits - Agricultural Chemical Residues",
       "country": "Japan",
       "topic": "Contaminant Limits",
       "actionRequired": "Regulatory/QA review recommended.",
-      "sourceUrl": "https://www.japaneselawtranslation.go.jp/en/laws/view/3687/en",
-      "details": "Old: Prohibition. Rule no longer appeared in the latest extraction. Verify whether source changed or extraction missed it."
+      "sourceUrl": "https://www.mhlw.go.jp/english/topics/foodsafety/",
+      "details": "Old: Verification required. Rule no longer appeared in the latest extraction. Verify whether source changed or extraction missed it."
     },
     {
       "alertLevel": "Moderate",
-      "title": "Added: Japan Labelling Requirement - General Food Specifications and Standards",
+      "title": "Added: Japan Labelling Requirement - Food produced by Recombinant DNA Techniques",
       "country": "Japan",
       "topic": "Labelling Requirement",
       "actionRequired": "Regulatory/QA review recommended.",
       "sourceUrl": "https://www.mhlw.go.jp/english/topics/foodsafety/",
-      "details": "New: Verification required. Compliance with the 'Specifications and Standards for Food, Food Additives, etc. Under The Food Sanitation Act' is required for various aspects of food safety and composition."
+      "details": "New: Verification required for regulations on food produced by recombinant DNA techniques. Regulations exist for foods produced using recombinant DNA techniques, often including labelling requirements."
     },
     {
       "alertLevel": "Moderate",
-      "title": "Added: Japan Labelling Requirement - Nutrition Labeling, Health Claims, Special Dietary Uses",
+      "title": "Added: Japan Labelling Requirement - General Food Safety and Sanitation",
+      "country": "Japan",
+      "topic": "Labelling Requirement",
+      "actionRequired": "Regulatory/QA review recommended.",
+      "sourceUrl": "http://www.japaneselawtranslation.go.jp/law/detail/?id=12&vm=04&re=01&new=1",
+      "details": "New: Compliance with the Food Sanitation Law is required. This is a fundamental law governing food safety and sanitation in Japan."
+    },
+    {
+      "alertLevel": "Moderate",
+      "title": "Added: Japan Labelling Requirement - General Food Safety Principles",
+      "country": "Japan",
+      "topic": "Labelling Requirement",
+      "actionRequired": "Regulatory/QA review recommended.",
+      "sourceUrl": "http://www.fsc.go.jp/sonota/fsb_law1807.pdf",
+      "details": "New: Compliance with the Food Safety Basic Law is required. This is a fundamental law establishing basic principles for food safety."
+    },
+    {
+      "alertLevel": "Moderate",
+      "title": "Added: Japan Labelling Requirement - Health Claims, Special Dietary Uses, Nutrition Labeling",
       "country": "Japan",
       "topic": "Labelling Requirement",
       "actionRequired": "Regulatory/QA review recommended.",
       "sourceUrl": "https://www.mhlw.go.jp/english/topics/foodsafety/",
-      "details": "New: Verification required. Compliance with regulations for food with health claims, food for special dietary uses, and nutrition labeling is required."
+      "details": "New: Verification required for regulations on health claims, special dietary uses, and nutrition labeling. Specific regulations govern these types of food and their labeling."
     },
     {
       "alertLevel": "Moderate",
-      "title": "Removed: Japan Labelling Requirement - Food safety responsibility and record keeping",
+      "title": "Removed: Japan Labelling Requirement - General Food Specifications and Standards",
       "country": "Japan",
       "topic": "Labelling Requirement",
       "actionRequired": "Regulatory/QA review recommended.",
-      "sourceUrl": "https://www.japaneselawtranslation.go.jp/en/laws/view/3687/en",
-      "details": "Old: N/A. Rule no longer appeared in the latest extraction. Verify whether source changed or extraction missed it."
+      "sourceUrl": "https://www.mhlw.go.jp/english/topics/foodsafety/",
+      "details": "Old: Verification required. Rule no longer appeared in the latest extraction. Verify whether source changed or extraction missed it."
     },
     {
       "alertLevel": "Moderate",
-      "title": "Removed: Japan Labelling Requirement - Notification of harm from designated ingredients",
+      "title": "Removed: Japan Labelling Requirement - Nutrition Labeling, Health Claims, Special Dietary Uses",
       "country": "Japan",
       "topic": "Labelling Requirement",
       "actionRequired": "Regulatory/QA review recommended.",
-      "sourceUrl": "https://www.japaneselawtranslation.go.jp/en/laws/view/3687/en",
-      "details": "Old: Notification required. Rule no longer appeared in the latest extraction. Verify whether source changed or extraction missed it."
+      "sourceUrl": "https://www.mhlw.go.jp/english/topics/foodsafety/",
+      "details": "Old: Verification required. Rule no longer appeared in the latest extraction. Verify whether source changed or extraction missed it."
     },
     {
       "alertLevel": "Moderate",
-      "title": "Removed: Japan Microbiology Limits - Clean and sanitary handling of food and additives",
-      "country": "Japan",
-      "topic": "Microbiology Limits",
-      "actionRequired": "Regulatory/QA review recommended.",
-      "sourceUrl": "https://www.japaneselawtranslation.go.jp/en/laws/view/3687/en",
-      "details": "Old: N/A. Rule no longer appeared in the latest extraction. Verify whether source changed or extraction missed it."
-    },
-    {
-      "alertLevel": "Moderate",
-      "title": "Removed: Japan Microbiology Limits - Pathogen contamination in food/additives",
-      "country": "Japan",
-      "topic": "Microbiology Limits",
-      "actionRequired": "Regulatory/QA review recommended.",
-      "sourceUrl": "https://www.japaneselawtranslation.go.jp/en/laws/view/3687/en",
-      "details": "Old: Prohibition. Rule no longer appeared in the latest extraction. Verify whether source changed or extraction missed it."
-    },
-    {
-      "alertLevel": "Moderate",
-      "title": "Removed: Japan Microbiology Limits - Rotten, deteriorated, or immature food/additives",
-      "country": "Japan",
-      "topic": "Microbiology Limits",
-      "actionRequired": "Regulatory/QA review recommended.",
-      "sourceUrl": "https://www.japaneselawtranslation.go.jp/en/laws/view/3687/en",
-      "details": "Old: Prohibition. Rule no longer appeared in the latest extraction. Verify whether source changed or extraction missed it."
-    },
-    {
-      "alertLevel": "Moderate",
-      "title": "Added: Middle East (GCC/GSO) Labelling Requirement - General labelling requirements for prepackaged food",
+      "title": "Removed: Middle East (GCC/GSO) Labelling Requirement - General labelling requirements for prepackaged food",
       "country": "Middle East (GCC/GSO)",
       "topic": "Labelling Requirement",
       "actionRequired": "Regulatory/QA review recommended.",
       "sourceUrl": "https://www.gso.org.sa/store/",
-      "details": "New: Verification required. This regulation sets out the general requirements for labelling of prepackaged food products in the GCC region, which includes seasoning and snack products."
+      "details": "Old: Verification required. Rule no longer appeared in the latest extraction. Verify whether source changed or extraction missed it."
     },
     {
       "alertLevel": "Moderate",
-      "title": "Added: Singapore Additive Limits - Food additive limits",
+      "title": "Removed: Singapore Additive Limits - Food additive limits",
       "country": "Singapore",
       "topic": "Additive Limits",
       "actionRequired": "Regulatory/QA review recommended.",
       "sourceUrl": "https://www.sfa.gov.sg/regulatory-standards-frameworks-guidelines/food-safety-regulatory-limits/regulatory-limits-for-food-additives",
-      "details": "New: Verification required as limits vary by additive and food type. "
+      "details": "Old: Verification required as limits vary by additive and food type. Rule no longer appeared in the latest extraction. Verify whether source changed or extraction missed it."
     },
     {
       "alertLevel": "Moderate",
-      "title": "Added: Singapore Additive Limits - Multiple Class II chemical preservatives",
+      "title": "Removed: Singapore Additive Limits - Food additives",
       "country": "Singapore",
       "topic": "Additive Limits",
       "actionRequired": "Regulatory/QA review recommended.",
       "sourceUrl": "https://www.sfa.gov.sg/regulatory-standards-frameworks-guidelines/food-safety-regulatory-limits/regulatory-limits-for-food-additives",
-      "details": "New: Use Calculation Tool for Class II Chemical Preservatives to determine permitted levels. "
+      "details": "Old: Must have technological justification and not present health risks to consumers. Rule no longer appeared in the latest extraction. Verify whether source changed or extraction missed it."
+    },
+    {
+      "alertLevel": "Moderate",
+      "title": "Removed: Singapore Additive Limits - Multiple Class II chemical preservatives",
+      "country": "Singapore",
+      "topic": "Additive Limits",
+      "actionRequired": "Regulatory/QA review recommended.",
+      "sourceUrl": "https://www.sfa.gov.sg/regulatory-standards-frameworks-guidelines/food-safety-regulatory-limits/regulatory-limits-for-food-additives",
+      "details": "Old: Use Calculation Tool for Class II Chemical Preservatives to determine permitted levels. Rule no longer appeared in the latest extraction. Verify whether source changed or extraction missed it."
+    },
+    {
+      "alertLevel": "Moderate",
+      "title": "Removed: Singapore Additive Limits - Non-permitted additives",
+      "country": "Singapore",
+      "topic": "Additive Limits",
+      "actionRequired": "Regulatory/QA review recommended.",
+      "sourceUrl": "https://www.sfa.gov.sg/regulatory-standards-frameworks-guidelines/food-safety-regulatory-limits/regulatory-limits-for-food-additives",
+      "details": "Old: Do not import or sell food products containing non-permitted additives. Rule no longer appeared in the latest extraction. Verify whether source changed or extraction missed it."
+    },
+    {
+      "alertLevel": "Moderate",
+      "title": "Removed: Singapore Additive Limits - Permitted food additives",
+      "country": "Singapore",
+      "topic": "Additive Limits",
+      "actionRequired": "Regulatory/QA review recommended.",
+      "sourceUrl": "https://www.sfa.gov.sg/regulatory-standards-frameworks-guidelines/food-safety-regulatory-limits/regulatory-limits-for-food-additives",
+      "details": "Old: Verification required using SFA's List of Permitted Food Additives or Food Additives Search tool. Rule no longer appeared in the latest extraction. Verify whether source changed or extraction missed it."
+    },
+    {
+      "alertLevel": "Moderate",
+      "title": "Removed: Singapore Additive Limits - Regulatory limits on food additives",
+      "country": "Singapore",
+      "topic": "Additive Limits",
+      "actionRequired": "Regulatory/QA review recommended.",
+      "sourceUrl": "https://www.sfa.gov.sg/regulatory-standards-frameworks-guidelines/food-safety-regulatory-limits/regulatory-limits-for-food-additives",
+      "details": "Old: All food businesses must comply. Rule no longer appeared in the latest extraction. Verify whether source changed or extraction missed it."
+    },
+    {
+      "alertLevel": "Moderate",
+      "title": "Removed: Singapore Contaminant Limits - Common contaminants",
+      "country": "Singapore",
+      "topic": "Contaminant Limits",
+      "actionRequired": "Regulatory/QA review recommended.",
+      "sourceUrl": "https://www.sfa.gov.sg/regulatory-standards-frameworks-guidelines/food-safety-regulatory-limits/regulatory-limits-for-contaminants-in-food",
+      "details": "Old: Food businesses must be aware and conduct laboratory tests as needed. Rule no longer appeared in the latest extraction. Verify whether source changed or extraction missed it."
+    },
+    {
+      "alertLevel": "Moderate",
+      "title": "Removed: Singapore Contaminant Limits - Contaminants (incidental constituents)",
+      "country": "Singapore",
+      "topic": "Contaminant Limits",
+      "actionRequired": "Regulatory/QA review recommended.",
+      "sourceUrl": "https://www.sfa.gov.sg/regulatory-standards-frameworks-guidelines/food-safety-regulatory-limits/regulatory-limits-for-contaminants-in-food",
+      "details": "Old: Must be within SFA’s regulatory limits. Rule no longer appeared in the latest extraction. Verify whether source changed or extraction missed it."
     }
   ]
 }
