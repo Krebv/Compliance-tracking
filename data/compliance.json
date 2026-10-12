@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-11T03:11:48.558Z",
+  "updatedAt": "2026-10-12T03:35:34.624Z",
   "model": "gemini-2.5-flash",
   "warning": "AI-assisted monitoring. Verify against official legislation before product approval, export, label declaration, or customer compliance confirmation.",
   "rules": [
@@ -381,7 +381,7 @@
       "country": "GCC",
       "url": "https://www.gso.org.sa/store/",
       "status": "ok",
-      "characters": 16265
+      "characters": 16511
     },
     {
       "country": "GCC",
@@ -393,7 +393,7 @@
       "country": "Middle East",
       "url": "https://www.gso.org.sa/store/",
       "status": "ok",
-      "characters": 16236
+      "characters": 16511
     },
     {
       "country": "United States",
@@ -428,20 +428,20 @@
     {
       "country": "China",
       "url": "https://apps.fas.usda.gov/newgainapi/api/report/downloadreportbyfilename?filename=Standard+for+Food+Additive+Use+-+GB2760-2015_Beijing_China+-+Peoples+Republic+of_4-28-2015.pdf",
-      "status": "ok",
-      "characters": 2213521
+      "status": "error",
+      "error": "fetch failed"
     },
     {
       "country": "Indonesia",
       "url": "https://www.pom.go.id/",
       "status": "ok",
-      "characters": 7694
+      "characters": 7741
     },
     {
       "country": "Indonesia",
       "url": "https://jdih.pom.go.id/",
       "status": "ok",
-      "characters": 5688
+      "characters": 5687
     },
     {
       "country": "Iran",
@@ -453,7 +453,7 @@
       "country": "Taiwan",
       "url": "https://www.fda.gov.tw/ENG/law.aspx?cid=16",
       "status": "ok",
-      "characters": 3982
+      "characters": 3961
     },
     {
       "country": "Taiwan",
@@ -465,7 +465,7 @@
       "country": "Taiwan",
       "url": "https://www.mohw.gov.tw/",
       "status": "ok",
-      "characters": 2767
+      "characters": 2748
     },
     {
       "country": "Philippines",
