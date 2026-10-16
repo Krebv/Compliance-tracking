@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T02:36:15.977Z",
+  "updatedAt": "2026-10-16T02:32:40.827Z",
   "model": "gemini-2.5-flash",
   "warning": "AI-assisted monitoring. Verify against official legislation before product approval, export, label declaration, or customer compliance confirmation.",
   "rules": [
@@ -381,7 +381,7 @@
       "country": "GCC",
       "url": "https://www.gso.org.sa/store/",
       "status": "ok",
-      "characters": 16090
+      "characters": 16192
     },
     {
       "country": "GCC",
@@ -393,7 +393,7 @@
       "country": "Middle East",
       "url": "https://www.gso.org.sa/store/",
       "status": "ok",
-      "characters": 16090
+      "characters": 16226
     },
     {
       "country": "United States",
@@ -435,13 +435,13 @@
       "country": "Indonesia",
       "url": "https://www.pom.go.id/",
       "status": "ok",
-      "characters": 7744
+      "characters": 7738
     },
     {
       "country": "Indonesia",
       "url": "https://jdih.pom.go.id/",
       "status": "ok",
-      "characters": 5689
+      "characters": 5691
     },
     {
       "country": "Iran",
@@ -453,7 +453,7 @@
       "country": "Taiwan",
       "url": "https://www.fda.gov.tw/ENG/law.aspx?cid=16",
       "status": "ok",
-      "characters": 3961
+      "characters": 3944
     },
     {
       "country": "Taiwan",
@@ -465,7 +465,7 @@
       "country": "Taiwan",
       "url": "https://www.mohw.gov.tw/",
       "status": "ok",
-      "characters": 2815
+      "characters": 2775
     },
     {
       "country": "Philippines",
@@ -495,7 +495,7 @@
       "country": "Vietnam",
       "url": "https://vanban.chinhphu.vn/",
       "status": "ok",
-      "characters": 35995
+      "characters": 35784
     }
   ]
 }
