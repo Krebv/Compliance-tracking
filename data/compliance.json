@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T02:32:40.827Z",
+  "updatedAt": "2026-10-17T02:24:16.452Z",
   "model": "gemini-2.5-flash",
   "warning": "AI-assisted monitoring. Verify against official legislation before product approval, export, label declaration, or customer compliance confirmation.",
   "rules": [
@@ -327,7 +327,7 @@
       "country": "Thailand",
       "url": "https://food.fda.moph.go.th/",
       "status": "ok",
-      "characters": 10005
+      "characters": 10111
     },
     {
       "country": "South Korea",
@@ -381,7 +381,7 @@
       "country": "GCC",
       "url": "https://www.gso.org.sa/store/",
       "status": "ok",
-      "characters": 16192
+      "characters": 16198
     },
     {
       "country": "GCC",
@@ -393,7 +393,7 @@
       "country": "Middle East",
       "url": "https://www.gso.org.sa/store/",
       "status": "ok",
-      "characters": 16226
+      "characters": 16198
     },
     {
       "country": "United States",
@@ -423,7 +423,7 @@
       "country": "China",
       "url": "https://www.nhc.gov.cn/",
       "status": "error",
-      "error": "fetch failed"
+      "error": "412 Precondition Failed"
     },
     {
       "country": "China",
@@ -435,7 +435,7 @@
       "country": "Indonesia",
       "url": "https://www.pom.go.id/",
       "status": "ok",
-      "characters": 7738
+      "characters": 7739
     },
     {
       "country": "Indonesia",
@@ -453,7 +453,7 @@
       "country": "Taiwan",
       "url": "https://www.fda.gov.tw/ENG/law.aspx?cid=16",
       "status": "ok",
-      "characters": 3944
+      "characters": 4238
     },
     {
       "country": "Taiwan",
@@ -465,7 +465,7 @@
       "country": "Taiwan",
       "url": "https://www.mohw.gov.tw/",
       "status": "ok",
-      "characters": 2775
+      "characters": 2786
     },
     {
       "country": "Philippines",
@@ -495,7 +495,7 @@
       "country": "Vietnam",
       "url": "https://vanban.chinhphu.vn/",
       "status": "ok",
-      "characters": 35784
+      "characters": 35864
     }
   ]
 }
