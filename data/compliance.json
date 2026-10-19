@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T02:24:18.147Z",
+  "updatedAt": "2026-10-19T02:39:31.077Z",
   "model": "gemini-2.5-flash",
   "warning": "AI-assisted monitoring. Verify against official legislation before product approval, export, label declaration, or customer compliance confirmation.",
   "rules": [
@@ -381,7 +381,7 @@
       "country": "GCC",
       "url": "https://www.gso.org.sa/store/",
       "status": "ok",
-      "characters": 16249
+      "characters": 16155
     },
     {
       "country": "GCC",
@@ -393,7 +393,7 @@
       "country": "Middle East",
       "url": "https://www.gso.org.sa/store/",
       "status": "ok",
-      "characters": 16249
+      "characters": 16155
     },
     {
       "country": "United States",
@@ -428,8 +428,8 @@
     {
       "country": "China",
       "url": "https://apps.fas.usda.gov/newgainapi/api/report/downloadreportbyfilename?filename=Standard+for+Food+Additive+Use+-+GB2760-2015_Beijing_China+-+Peoples+Republic+of_4-28-2015.pdf",
-      "status": "ok",
-      "characters": 2213521
+      "status": "error",
+      "error": "fetch failed"
     },
     {
       "country": "Indonesia",
@@ -465,7 +465,7 @@
       "country": "Taiwan",
       "url": "https://www.mohw.gov.tw/",
       "status": "ok",
-      "characters": 2777
+      "characters": 2792
     },
     {
       "country": "Philippines",
