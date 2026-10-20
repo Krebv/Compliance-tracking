@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T02:39:31.077Z",
+  "updatedAt": "2026-10-20T02:50:50.444Z",
   "model": "gemini-2.5-flash",
   "warning": "AI-assisted monitoring. Verify against official legislation before product approval, export, label declaration, or customer compliance confirmation.",
   "rules": [
@@ -297,13 +297,13 @@
       "country": "Codex",
       "url": "https://www.fao.org/fao-who-codexalimentarius/codex-texts/dbs/gsfa/en/",
       "status": "ok",
-      "characters": 2927
+      "characters": 6785
     },
     {
       "country": "Codex",
       "url": "https://www.fao.org/fao-who-codexalimentarius/thematic-areas/contaminants/en/",
       "status": "ok",
-      "characters": 7589
+      "characters": 6785
     },
     {
       "country": "European Union",
@@ -327,7 +327,7 @@
       "country": "Thailand",
       "url": "https://food.fda.moph.go.th/",
       "status": "ok",
-      "characters": 10111
+      "characters": 10227
     },
     {
       "country": "South Korea",
@@ -393,7 +393,7 @@
       "country": "Middle East",
       "url": "https://www.gso.org.sa/store/",
       "status": "ok",
-      "characters": 16155
+      "characters": 16431
     },
     {
       "country": "United States",
@@ -428,14 +428,14 @@
     {
       "country": "China",
       "url": "https://apps.fas.usda.gov/newgainapi/api/report/downloadreportbyfilename?filename=Standard+for+Food+Additive+Use+-+GB2760-2015_Beijing_China+-+Peoples+Republic+of_4-28-2015.pdf",
-      "status": "error",
-      "error": "fetch failed"
+      "status": "ok",
+      "characters": 2213521
     },
     {
       "country": "Indonesia",
       "url": "https://www.pom.go.id/",
       "status": "ok",
-      "characters": 7716
+      "characters": 7722
     },
     {
       "country": "Indonesia",
@@ -453,7 +453,7 @@
       "country": "Taiwan",
       "url": "https://www.fda.gov.tw/ENG/law.aspx?cid=16",
       "status": "ok",
-      "characters": 4238
+      "characters": 4139
     },
     {
       "country": "Taiwan",
@@ -465,7 +465,7 @@
       "country": "Taiwan",
       "url": "https://www.mohw.gov.tw/",
       "status": "ok",
-      "characters": 2792
+      "characters": 2802
     },
     {
       "country": "Philippines",
@@ -495,7 +495,7 @@
       "country": "Vietnam",
       "url": "https://vanban.chinhphu.vn/",
       "status": "ok",
-      "characters": 35864
+      "characters": 35696
     }
   ]
 }
