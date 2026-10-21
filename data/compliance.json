@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T02:50:50.444Z",
+  "updatedAt": "2026-10-21T02:44:36.901Z",
   "model": "gemini-2.5-flash",
   "warning": "AI-assisted monitoring. Verify against official legislation before product approval, export, label declaration, or customer compliance confirmation.",
   "rules": [
@@ -297,13 +297,13 @@
       "country": "Codex",
       "url": "https://www.fao.org/fao-who-codexalimentarius/codex-texts/dbs/gsfa/en/",
       "status": "ok",
-      "characters": 6785
+      "characters": 6770
     },
     {
       "country": "Codex",
       "url": "https://www.fao.org/fao-who-codexalimentarius/thematic-areas/contaminants/en/",
       "status": "ok",
-      "characters": 6785
+      "characters": 6770
     },
     {
       "country": "European Union",
@@ -381,19 +381,19 @@
       "country": "GCC",
       "url": "https://www.gso.org.sa/store/",
       "status": "ok",
-      "characters": 16155
+      "characters": 16382
     },
     {
       "country": "GCC",
       "url": "https://www.gso.org.sa/store/standards/GSO:693280/GSO1016:2015?lang=en",
       "status": "ok",
-      "characters": 2908
+      "characters": 3033
     },
     {
       "country": "Middle East",
       "url": "https://www.gso.org.sa/store/",
       "status": "ok",
-      "characters": 16431
+      "characters": 16278
     },
     {
       "country": "United States",
@@ -435,13 +435,13 @@
       "country": "Indonesia",
       "url": "https://www.pom.go.id/",
       "status": "ok",
-      "characters": 7722
+      "characters": 7713
     },
     {
       "country": "Indonesia",
       "url": "https://jdih.pom.go.id/",
       "status": "ok",
-      "characters": 5691
+      "characters": 5690
     },
     {
       "country": "Iran",
@@ -465,7 +465,7 @@
       "country": "Taiwan",
       "url": "https://www.mohw.gov.tw/",
       "status": "ok",
-      "characters": 2802
+      "characters": 2837
     },
     {
       "country": "Philippines",
@@ -495,7 +495,7 @@
       "country": "Vietnam",
       "url": "https://vanban.chinhphu.vn/",
       "status": "ok",
-      "characters": 35696
+      "characters": 35945
     }
   ]
 }
