@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T02:45:10.020Z",
+  "updatedAt": "2026-10-25T02:34:07.477Z",
   "model": "gemini-2.5-flash",
   "warning": "AI-assisted monitoring. Verify against official legislation before product approval, export, label declaration, or customer compliance confirmation.",
   "rules": [
@@ -381,19 +381,19 @@
       "country": "GCC",
       "url": "https://www.gso.org.sa/store/",
       "status": "ok",
-      "characters": 16289
+      "characters": 16274
     },
     {
       "country": "GCC",
       "url": "https://www.gso.org.sa/store/standards/GSO:693280/GSO1016:2015?lang=en",
       "status": "ok",
-      "characters": 2908
+      "characters": 3033
     },
     {
       "country": "Middle East",
       "url": "https://www.gso.org.sa/store/",
       "status": "ok",
-      "characters": 16289
+      "characters": 16294
     },
     {
       "country": "United States",
@@ -465,7 +465,7 @@
       "country": "Taiwan",
       "url": "https://www.mohw.gov.tw/",
       "status": "ok",
-      "characters": 2893
+      "characters": 2871
     },
     {
       "country": "Philippines",
