@@ -1,0 +1,501 @@
+{
+  "updatedAt": "2026-10-26T02:33:51.085Z",
+  "model": "gemini-2.5-flash",
+  "warning": "AI-assisted monitoring. Verify against official legislation before product approval, export, label declaration, or customer compliance confirmation.",
+  "rules": [
+    {
+      "id": "ab6582ec3a467c91",
+      "country": "Bangladesh",
+      "topic": "Labelling Requirement",
+      "foodCategory": "Monitoring source",
+      "parameter": "Source fetch / extraction issue",
+      "limit": "Manual review required",
+      "unit": "",
+      "risk": "High",
+      "effectiveDate": "",
+      "sourceTitle": "Bangladesh Food Safety Authority (BFSA)",
+      "sourceUrl": "https://bfsa.gov.bd/",
+      "notes": "Automated extraction failed: {\"error\":{\"code\":400,\"message\":\"API key not valid. Please pass a valid API key.\",\"status\":\"INVALID_ARGUMENT\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.ErrorInfo\",\"reason\":\"API_KEY_INVALID\",\"domain\":\"googleapis.com\",\"metadata\":{\"service\":\"generativelanguage.googleapis.com\"}},{\"@type\":\"type.googleapis.com/google.rpc.LocalizedMessage\",\"locale\":\"en-US\",\"message\":\"API key not valid. Please pass a valid API key.\"}]}}",
+      "evidenceQuote": ""
+    },
+    {
+      "id": "5dfcd2229258ea09",
+      "country": "China",
+      "topic": "Labelling Requirement",
+      "foodCategory": "Monitoring source",
+      "parameter": "Source fetch / extraction issue",
+      "limit": "Manual review required",
+      "unit": "",
+      "risk": "High",
+      "effectiveDate": "",
+      "sourceTitle": "National Health Commission / SAMR / GB Food Safety Standards",
+      "sourceUrl": "https://www.nhc.gov.cn/",
+      "notes": "Automated extraction failed: {\"error\":{\"code\":400,\"message\":\"API key not valid. Please pass a valid API key.\",\"status\":\"INVALID_ARGUMENT\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.ErrorInfo\",\"reason\":\"API_KEY_INVALID\",\"domain\":\"googleapis.com\",\"metadata\":{\"service\":\"generativelanguage.googleapis.com\"}},{\"@type\":\"type.googleapis.com/google.rpc.LocalizedMessage\",\"locale\":\"en-US\",\"message\":\"API key not valid. Please pass a valid API key.\"}]}}",
+      "evidenceQuote": ""
+    },
+    {
+      "id": "cbbb49e1af1fe35d",
+      "country": "Codex",
+      "topic": "Labelling Requirement",
+      "foodCategory": "Monitoring source",
+      "parameter": "Source fetch / extraction issue",
+      "limit": "Manual review required",
+      "unit": "",
+      "risk": "High",
+      "effectiveDate": "",
+      "sourceTitle": "FAO/WHO Codex Alimentarius",
+      "sourceUrl": "https://www.fao.org/fao-who-codexalimentarius/codex-texts/dbs/gsfa/en/",
+      "notes": "Automated extraction failed: {\"error\":{\"code\":400,\"message\":\"API key not valid. Please pass a valid API key.\",\"status\":\"INVALID_ARGUMENT\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.ErrorInfo\",\"reason\":\"API_KEY_INVALID\",\"domain\":\"googleapis.com\",\"metadata\":{\"service\":\"generativelanguage.googleapis.com\"}},{\"@type\":\"type.googleapis.com/google.rpc.LocalizedMessage\",\"locale\":\"en-US\",\"message\":\"API key not valid. Please pass a valid API key.\"}]}}",
+      "evidenceQuote": ""
+    },
+    {
+      "id": "9e530053da984cc1",
+      "country": "European Union",
+      "topic": "Labelling Requirement",
+      "foodCategory": "Monitoring source",
+      "parameter": "Source fetch / extraction issue",
+      "limit": "Manual review required",
+      "unit": "",
+      "risk": "High",
+      "effectiveDate": "",
+      "sourceTitle": "European Commission",
+      "sourceUrl": "https://food.ec.europa.eu/food-safety/food-improvement-agents/additives/database_en",
+      "notes": "Automated extraction failed: {\"error\":{\"code\":400,\"message\":\"API key not valid. Please pass a valid API key.\",\"status\":\"INVALID_ARGUMENT\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.ErrorInfo\",\"reason\":\"API_KEY_INVALID\",\"domain\":\"googleapis.com\",\"metadata\":{\"service\":\"generativelanguage.googleapis.com\"}},{\"@type\":\"type.googleapis.com/google.rpc.LocalizedMessage\",\"locale\":\"en-US\",\"message\":\"API key not valid. Please pass a valid API key.\"}]}}",
+      "evidenceQuote": ""
+    },
+    {
+      "id": "69f30c90708ce239",
+      "country": "GCC",
+      "topic": "Labelling Requirement",
+      "foodCategory": "Monitoring source",
+      "parameter": "Source fetch / extraction issue",
+      "limit": "Manual review required",
+      "unit": "",
+      "risk": "High",
+      "effectiveDate": "",
+      "sourceTitle": "GCC Standardization Organization (GSO)",
+      "sourceUrl": "https://www.gso.org.sa/store/",
+      "notes": "Automated extraction failed: {\"error\":{\"code\":400,\"message\":\"API key not valid. Please pass a valid API key.\",\"status\":\"INVALID_ARGUMENT\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.ErrorInfo\",\"reason\":\"API_KEY_INVALID\",\"domain\":\"googleapis.com\",\"metadata\":{\"service\":\"generativelanguage.googleapis.com\"}},{\"@type\":\"type.googleapis.com/google.rpc.LocalizedMessage\",\"locale\":\"en-US\",\"message\":\"API key not valid. Please pass a valid API key.\"}]}}",
+      "evidenceQuote": ""
+    },
+    {
+      "id": "49ce341a2ba64896",
+      "country": "India",
+      "topic": "Labelling Requirement",
+      "foodCategory": "Monitoring source",
+      "parameter": "Source fetch / extraction issue",
+      "limit": "Manual review required",
+      "unit": "",
+      "risk": "High",
+      "effectiveDate": "",
+      "sourceTitle": "Food Safety and Standards Authority of India (FSSAI)",
+      "sourceUrl": "https://www.fssai.gov.in/upload/uploadfiles/files/Compendium_Food_Additives_Regulations_20_12_2022.pdf",
+      "notes": "Automated extraction failed: {\"error\":{\"code\":400,\"message\":\"API key not valid. Please pass a valid API key.\",\"status\":\"INVALID_ARGUMENT\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.ErrorInfo\",\"reason\":\"API_KEY_INVALID\",\"domain\":\"googleapis.com\",\"metadata\":{\"service\":\"generativelanguage.googleapis.com\"}},{\"@type\":\"type.googleapis.com/google.rpc.LocalizedMessage\",\"locale\":\"en-US\",\"message\":\"API key not valid. Please pass a valid API key.\"}]}}",
+      "evidenceQuote": ""
+    },
+    {
+      "id": "c7e037bf1d94c63c",
+      "country": "Indonesia",
+      "topic": "Labelling Requirement",
+      "foodCategory": "Monitoring source",
+      "parameter": "Source fetch / extraction issue",
+      "limit": "Manual review required",
+      "unit": "",
+      "risk": "High",
+      "effectiveDate": "",
+      "sourceTitle": "Badan Pengawas Obat dan Makanan (BPOM)",
+      "sourceUrl": "https://www.pom.go.id/",
+      "notes": "Automated extraction failed: {\"error\":{\"code\":400,\"message\":\"API key not valid. Please pass a valid API key.\",\"status\":\"INVALID_ARGUMENT\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.ErrorInfo\",\"reason\":\"API_KEY_INVALID\",\"domain\":\"googleapis.com\",\"metadata\":{\"service\":\"generativelanguage.googleapis.com\"}},{\"@type\":\"type.googleapis.com/google.rpc.LocalizedMessage\",\"locale\":\"en-US\",\"message\":\"API key not valid. Please pass a valid API key.\"}]}}",
+      "evidenceQuote": ""
+    },
+    {
+      "id": "24b4e00a8b057c69",
+      "country": "Iran",
+      "topic": "Labelling Requirement",
+      "foodCategory": "Monitoring source",
+      "parameter": "Source fetch / extraction issue",
+      "limit": "Manual review required",
+      "unit": "",
+      "risk": "High",
+      "effectiveDate": "",
+      "sourceTitle": "Iran Food and Drug Administration (IFDA)",
+      "sourceUrl": "https://www.fda.gov.ir/",
+      "notes": "Automated extraction failed: {\"error\":{\"code\":400,\"message\":\"API key not valid. Please pass a valid API key.\",\"status\":\"INVALID_ARGUMENT\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.ErrorInfo\",\"reason\":\"API_KEY_INVALID\",\"domain\":\"googleapis.com\",\"metadata\":{\"service\":\"generativelanguage.googleapis.com\"}},{\"@type\":\"type.googleapis.com/google.rpc.LocalizedMessage\",\"locale\":\"en-US\",\"message\":\"API key not valid. Please pass a valid API key.\"}]}}",
+      "evidenceQuote": ""
+    },
+    {
+      "id": "a50b4e7b05a154f9",
+      "country": "Japan",
+      "topic": "Labelling Requirement",
+      "foodCategory": "Monitoring source",
+      "parameter": "Source fetch / extraction issue",
+      "limit": "Manual review required",
+      "unit": "",
+      "risk": "High",
+      "effectiveDate": "",
+      "sourceTitle": "Ministry of Health, Labour and Welfare (MHLW)",
+      "sourceUrl": "https://www.mhlw.go.jp/english/topics/foodsafety/",
+      "notes": "Automated extraction failed: {\"error\":{\"code\":400,\"message\":\"API key not valid. Please pass a valid API key.\",\"status\":\"INVALID_ARGUMENT\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.ErrorInfo\",\"reason\":\"API_KEY_INVALID\",\"domain\":\"googleapis.com\",\"metadata\":{\"service\":\"generativelanguage.googleapis.com\"}},{\"@type\":\"type.googleapis.com/google.rpc.LocalizedMessage\",\"locale\":\"en-US\",\"message\":\"API key not valid. Please pass a valid API key.\"}]}}",
+      "evidenceQuote": ""
+    },
+    {
+      "id": "b37b4bd0fa55db70",
+      "country": "Malaysia",
+      "topic": "Labelling Requirement",
+      "foodCategory": "Monitoring source",
+      "parameter": "Source fetch / extraction issue",
+      "limit": "Manual review required",
+      "unit": "",
+      "risk": "High",
+      "effectiveDate": "",
+      "sourceTitle": "Ministry of Health Malaysia / Food Regulations 1985",
+      "sourceUrl": "https://hq.moh.gov.my/fsq/xs/dl.php?filename=Food+Regulation+1985+Update+291024+%28PUA+209_2020%29.pdf",
+      "notes": "Automated extraction failed: {\"error\":{\"code\":400,\"message\":\"API key not valid. Please pass a valid API key.\",\"status\":\"INVALID_ARGUMENT\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.ErrorInfo\",\"reason\":\"API_KEY_INVALID\",\"domain\":\"googleapis.com\",\"metadata\":{\"service\":\"generativelanguage.googleapis.com\"}},{\"@type\":\"type.googleapis.com/google.rpc.LocalizedMessage\",\"locale\":\"en-US\",\"message\":\"API key not valid. Please pass a valid API key.\"}]}}",
+      "evidenceQuote": ""
+    },
+    {
+      "id": "732dcf8983f67fbe",
+      "country": "Middle East",
+      "topic": "Labelling Requirement",
+      "foodCategory": "Monitoring source",
+      "parameter": "Source fetch / extraction issue",
+      "limit": "Manual review required",
+      "unit": "",
+      "risk": "High",
+      "effectiveDate": "",
+      "sourceTitle": "Regional grouping - use GCC/GSO plus country-specific authorities",
+      "sourceUrl": "https://www.gso.org.sa/store/",
+      "notes": "Automated extraction failed: {\"error\":{\"code\":400,\"message\":\"API key not valid. Please pass a valid API key.\",\"status\":\"INVALID_ARGUMENT\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.ErrorInfo\",\"reason\":\"API_KEY_INVALID\",\"domain\":\"googleapis.com\",\"metadata\":{\"service\":\"generativelanguage.googleapis.com\"}},{\"@type\":\"type.googleapis.com/google.rpc.LocalizedMessage\",\"locale\":\"en-US\",\"message\":\"API key not valid. Please pass a valid API key.\"}]}}",
+      "evidenceQuote": ""
+    },
+    {
+      "id": "51489945c73919c6",
+      "country": "Philippines",
+      "topic": "Labelling Requirement",
+      "foodCategory": "Monitoring source",
+      "parameter": "Source fetch / extraction issue",
+      "limit": "Manual review required",
+      "unit": "",
+      "risk": "High",
+      "effectiveDate": "",
+      "sourceTitle": "Philippines Food and Drug Administration (FDA)",
+      "sourceUrl": "https://www.fda.gov.ph/",
+      "notes": "Automated extraction failed: {\"error\":{\"code\":400,\"message\":\"API key not valid. Please pass a valid API key.\",\"status\":\"INVALID_ARGUMENT\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.ErrorInfo\",\"reason\":\"API_KEY_INVALID\",\"domain\":\"googleapis.com\",\"metadata\":{\"service\":\"generativelanguage.googleapis.com\"}},{\"@type\":\"type.googleapis.com/google.rpc.LocalizedMessage\",\"locale\":\"en-US\",\"message\":\"API key not valid. Please pass a valid API key.\"}]}}",
+      "evidenceQuote": ""
+    },
+    {
+      "id": "70285e0dbc782fbb",
+      "country": "Singapore",
+      "topic": "Labelling Requirement",
+      "foodCategory": "Monitoring source",
+      "parameter": "Source fetch / extraction issue",
+      "limit": "Manual review required",
+      "unit": "",
+      "risk": "High",
+      "effectiveDate": "",
+      "sourceTitle": "Singapore Food Agency / Singapore Statutes Online",
+      "sourceUrl": "https://www.sfa.gov.sg/regulatory-standards-frameworks-guidelines/food-safety-regulatory-limits/regulatory-limits-for-food-additives",
+      "notes": "Automated extraction failed: {\"error\":{\"code\":400,\"message\":\"API key not valid. Please pass a valid API key.\",\"status\":\"INVALID_ARGUMENT\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.ErrorInfo\",\"reason\":\"API_KEY_INVALID\",\"domain\":\"googleapis.com\",\"metadata\":{\"service\":\"generativelanguage.googleapis.com\"}},{\"@type\":\"type.googleapis.com/google.rpc.LocalizedMessage\",\"locale\":\"en-US\",\"message\":\"API key not valid. Please pass a valid API key.\"}]}}",
+      "evidenceQuote": ""
+    },
+    {
+      "id": "314b9e8cb72ad99e",
+      "country": "South Korea",
+      "topic": "Labelling Requirement",
+      "foodCategory": "Monitoring source",
+      "parameter": "Source fetch / extraction issue",
+      "limit": "Manual review required",
+      "unit": "",
+      "risk": "High",
+      "effectiveDate": "",
+      "sourceTitle": "Ministry of Food and Drug Safety (MFDS)",
+      "sourceUrl": "https://www.mfds.go.kr/eng/brd/m_15/list.do",
+      "notes": "Automated extraction failed: {\"error\":{\"code\":400,\"message\":\"API key not valid. Please pass a valid API key.\",\"status\":\"INVALID_ARGUMENT\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.ErrorInfo\",\"reason\":\"API_KEY_INVALID\",\"domain\":\"googleapis.com\",\"metadata\":{\"service\":\"generativelanguage.googleapis.com\"}},{\"@type\":\"type.googleapis.com/google.rpc.LocalizedMessage\",\"locale\":\"en-US\",\"message\":\"API key not valid. Please pass a valid API key.\"}]}}",
+      "evidenceQuote": ""
+    },
+    {
+      "id": "02d6fd966815bbc4",
+      "country": "Taiwan",
+      "topic": "Labelling Requirement",
+      "foodCategory": "Monitoring source",
+      "parameter": "Source fetch / extraction issue",
+      "limit": "Manual review required",
+      "unit": "",
+      "risk": "High",
+      "effectiveDate": "",
+      "sourceTitle": "Taiwan Food and Drug Administration (TFDA)",
+      "sourceUrl": "https://www.fda.gov.tw/ENG/law.aspx?cid=16",
+      "notes": "Automated extraction failed: {\"error\":{\"code\":400,\"message\":\"API key not valid. Please pass a valid API key.\",\"status\":\"INVALID_ARGUMENT\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.ErrorInfo\",\"reason\":\"API_KEY_INVALID\",\"domain\":\"googleapis.com\",\"metadata\":{\"service\":\"generativelanguage.googleapis.com\"}},{\"@type\":\"type.googleapis.com/google.rpc.LocalizedMessage\",\"locale\":\"en-US\",\"message\":\"API key not valid. Please pass a valid API key.\"}]}}",
+      "evidenceQuote": ""
+    },
+    {
+      "id": "489bfbc6a3a5a452",
+      "country": "Thailand",
+      "topic": "Labelling Requirement",
+      "foodCategory": "Monitoring source",
+      "parameter": "Source fetch / extraction issue",
+      "limit": "Manual review required",
+      "unit": "",
+      "risk": "High",
+      "effectiveDate": "",
+      "sourceTitle": "Thai FDA / Ministry of Public Health",
+      "sourceUrl": "https://food.fda.moph.go.th/",
+      "notes": "Automated extraction failed: {\"error\":{\"code\":400,\"message\":\"API key not valid. Please pass a valid API key.\",\"status\":\"INVALID_ARGUMENT\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.ErrorInfo\",\"reason\":\"API_KEY_INVALID\",\"domain\":\"googleapis.com\",\"metadata\":{\"service\":\"generativelanguage.googleapis.com\"}},{\"@type\":\"type.googleapis.com/google.rpc.LocalizedMessage\",\"locale\":\"en-US\",\"message\":\"API key not valid. Please pass a valid API key.\"}]}}",
+      "evidenceQuote": ""
+    },
+    {
+      "id": "a0f54a5919e472ad",
+      "country": "United States",
+      "topic": "Labelling Requirement",
+      "foodCategory": "Monitoring source",
+      "parameter": "Source fetch / extraction issue",
+      "limit": "Manual review required",
+      "unit": "",
+      "risk": "High",
+      "effectiveDate": "",
+      "sourceTitle": "U.S. Food and Drug Administration (FDA)",
+      "sourceUrl": "https://www.fda.gov/food/food-ingredients-packaging/food-additive-listings",
+      "notes": "Automated extraction failed: {\"error\":{\"code\":400,\"message\":\"API key not valid. Please pass a valid API key.\",\"status\":\"INVALID_ARGUMENT\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.ErrorInfo\",\"reason\":\"API_KEY_INVALID\",\"domain\":\"googleapis.com\",\"metadata\":{\"service\":\"generativelanguage.googleapis.com\"}},{\"@type\":\"type.googleapis.com/google.rpc.LocalizedMessage\",\"locale\":\"en-US\",\"message\":\"API key not valid. Please pass a valid API key.\"}]}}",
+      "evidenceQuote": ""
+    },
+    {
+      "id": "b8648a12a20338f1",
+      "country": "Vietnam",
+      "topic": "Labelling Requirement",
+      "foodCategory": "Monitoring source",
+      "parameter": "Source fetch / extraction issue",
+      "limit": "Manual review required",
+      "unit": "",
+      "risk": "High",
+      "effectiveDate": "",
+      "sourceTitle": "Ministry of Health / Vietnam Food Administration",
+      "sourceUrl": "https://vfa.gov.vn/",
+      "notes": "Automated extraction failed: {\"error\":{\"code\":400,\"message\":\"API key not valid. Please pass a valid API key.\",\"status\":\"INVALID_ARGUMENT\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.ErrorInfo\",\"reason\":\"API_KEY_INVALID\",\"domain\":\"googleapis.com\",\"metadata\":{\"service\":\"generativelanguage.googleapis.com\"}},{\"@type\":\"type.googleapis.com/google.rpc.LocalizedMessage\",\"locale\":\"en-US\",\"message\":\"API key not valid. Please pass a valid API key.\"}]}}",
+      "evidenceQuote": ""
+    }
+  ],
+  "fetchLog": [
+    {
+      "country": "Singapore",
+      "url": "https://www.sfa.gov.sg/regulatory-standards-frameworks-guidelines/food-safety-regulatory-limits/regulatory-limits-for-food-additives",
+      "status": "ok",
+      "characters": 15467
+    },
+    {
+      "country": "Singapore",
+      "url": "https://www.sfa.gov.sg/regulatory-standards-frameworks-guidelines/food-safety-regulatory-limits/regulatory-limits-for-contaminants-in-food",
+      "status": "ok",
+      "characters": 13882
+    },
+    {
+      "country": "Singapore",
+      "url": "https://sso.agc.gov.sg/SL/SFA1973-RG1?ProvIds=Sc11-",
+      "status": "error",
+      "error": "403 Forbidden"
+    },
+    {
+      "country": "Codex",
+      "url": "https://www.fao.org/fao-who-codexalimentarius/codex-texts/dbs/gsfa/en/",
+      "status": "ok",
+      "characters": 6770
+    },
+    {
+      "country": "Codex",
+      "url": "https://www.fao.org/fao-who-codexalimentarius/thematic-areas/contaminants/en/",
+      "status": "ok",
+      "characters": 6770
+    },
+    {
+      "country": "European Union",
+      "url": "https://food.ec.europa.eu/food-safety/food-improvement-agents/additives/database_en",
+      "status": "ok",
+      "characters": 2415
+    },
+    {
+      "country": "European Union",
+      "url": "https://food.ec.europa.eu/food-safety/biological-safety/food-hygiene/microbiological-criteria_en",
+      "status": "ok",
+      "characters": 10616
+    },
+    {
+      "country": "Malaysia",
+      "url": "https://hq.moh.gov.my/fsq/xs/dl.php?filename=Food+Regulation+1985+Update+291024+%28PUA+209_2020%29.pdf",
+      "status": "ok",
+      "characters": 42
+    },
+    {
+      "country": "Thailand",
+      "url": "https://food.fda.moph.go.th/",
+      "status": "ok",
+      "characters": 10256
+    },
+    {
+      "country": "South Korea",
+      "url": "https://www.mfds.go.kr/eng/brd/m_15/list.do",
+      "status": "ok",
+      "characters": 8219
+    },
+    {
+      "country": "South Korea",
+      "url": "https://www.mfds.go.kr/files/upload/eng/Article_2._Common_Standards___Specification_for_General_Foods.pdf",
+      "status": "ok",
+      "characters": 351036
+    },
+    {
+      "country": "Japan",
+      "url": "https://www.mhlw.go.jp/english/topics/foodsafety/",
+      "status": "ok",
+      "characters": 2372
+    },
+    {
+      "country": "Japan",
+      "url": "https://www.japaneselawtranslation.go.jp/en/laws/view/3687/en",
+      "status": "error",
+      "error": "403 Forbidden"
+    },
+    {
+      "country": "India",
+      "url": "https://www.fssai.gov.in/upload/uploadfiles/files/Compendium_Food_Additives_Regulations_20_12_2022.pdf",
+      "status": "ok",
+      "characters": 11193862
+    },
+    {
+      "country": "India",
+      "url": "https://www.fssai.gov.in/upload/uploadfiles/files/Compendium_Labelling_Display_30_06_2022.pdf",
+      "status": "ok",
+      "characters": 1136388
+    },
+    {
+      "country": "Bangladesh",
+      "url": "https://bfsa.gov.bd/",
+      "status": "error",
+      "error": "fetch failed"
+    },
+    {
+      "country": "Bangladesh",
+      "url": "https://bfsa.gov.bd/pages/static-pages/6922dc26933eb65569e0ea67",
+      "status": "error",
+      "error": "fetch failed"
+    },
+    {
+      "country": "GCC",
+      "url": "https://www.gso.org.sa/store/",
+      "status": "ok",
+      "characters": 16378
+    },
+    {
+      "country": "GCC",
+      "url": "https://www.gso.org.sa/store/standards/GSO:693280/GSO1016:2015?lang=en",
+      "status": "ok",
+      "characters": 2908
+    },
+    {
+      "country": "Middle East",
+      "url": "https://www.gso.org.sa/store/",
+      "status": "ok",
+      "characters": 16378
+    },
+    {
+      "country": "United States",
+      "url": "https://www.fda.gov/food/food-ingredients-packaging/food-additive-listings",
+      "status": "ok",
+      "characters": 3379
+    },
+    {
+      "country": "United States",
+      "url": "https://www.fda.gov/food/food-additives-petitions/substances-added-food-formerly-eafus",
+      "status": "ok",
+      "characters": 4227
+    },
+    {
+      "country": "United States",
+      "url": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=contaminant-levels",
+      "status": "ok",
+      "characters": 9624
+    },
+    {
+      "country": "United States",
+      "url": "https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/food-allergies",
+      "status": "ok",
+      "characters": 22283
+    },
+    {
+      "country": "China",
+      "url": "https://www.nhc.gov.cn/",
+      "status": "error",
+      "error": "412 Precondition Failed"
+    },
+    {
+      "country": "China",
+      "url": "https://apps.fas.usda.gov/newgainapi/api/report/downloadreportbyfilename?filename=Standard+for+Food+Additive+Use+-+GB2760-2015_Beijing_China+-+Peoples+Republic+of_4-28-2015.pdf",
+      "status": "ok",
+      "characters": 2213521
+    },
+    {
+      "country": "Indonesia",
+      "url": "https://www.pom.go.id/",
+      "status": "ok",
+      "characters": 7733
+    },
+    {
+      "country": "Indonesia",
+      "url": "https://jdih.pom.go.id/",
+      "status": "ok",
+      "characters": 5691
+    },
+    {
+      "country": "Iran",
+      "url": "https://www.fda.gov.ir/",
+      "status": "error",
+      "error": "fetch failed"
+    },
+    {
+      "country": "Taiwan",
+      "url": "https://www.fda.gov.tw/ENG/law.aspx?cid=16",
+      "status": "ok",
+      "characters": 4139
+    },
+    {
+      "country": "Taiwan",
+      "url": "https://www.fda.gov.tw/eng/lawContent.aspx?cid=16&id=3407",
+      "status": "ok",
+      "characters": 4741
+    },
+    {
+      "country": "Taiwan",
+      "url": "https://www.mohw.gov.tw/",
+      "status": "ok",
+      "characters": 2871
+    },
+    {
+      "country": "Philippines",
+      "url": "https://www.fda.gov.ph/",
+      "status": "error",
+      "error": "403 Forbidden"
+    },
+    {
+      "country": "Philippines",
+      "url": "https://www.fda.gov.ph/fda-circular-no-2022-012-guidelines-on-the-microbiological-requirements-and-assessment-of-certain-prepackaged-processed-food-products-repealing-fda-circular-no-2013-010-entitled-revised-g/",
+      "status": "error",
+      "error": "403 Forbidden"
+    },
+    {
+      "country": "Philippines",
+      "url": "https://www.fda.gov.ph/philippine-national-standards/",
+      "status": "error",
+      "error": "403 Forbidden"
+    },
+    {
+      "country": "Vietnam",
+      "url": "https://vfa.gov.vn/",
+      "status": "error",
+      "error": "fetch failed"
+    },
+    {
+      "country": "Vietnam",
+      "url": "https://vanban.chinhphu.vn/",
+      "status": "ok",
+      "characters": 35689
+    }
+  ]
+}
