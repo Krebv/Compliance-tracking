@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T02:33:51.085Z",
+  "updatedAt": "2026-10-27T03:13:13.624Z",
   "model": "gemini-2.5-flash",
   "warning": "AI-assisted monitoring. Verify against official legislation before product approval, export, label declaration, or customer compliance confirmation.",
   "rules": [
@@ -327,7 +327,7 @@
       "country": "Thailand",
       "url": "https://food.fda.moph.go.th/",
       "status": "ok",
-      "characters": 10256
+      "characters": 10240
     },
     {
       "country": "South Korea",
@@ -356,8 +356,8 @@
     {
       "country": "India",
       "url": "https://www.fssai.gov.in/upload/uploadfiles/files/Compendium_Food_Additives_Regulations_20_12_2022.pdf",
-      "status": "ok",
-      "characters": 11193862
+      "status": "error",
+      "error": "terminated"
     },
     {
       "country": "India",
@@ -381,7 +381,7 @@
       "country": "GCC",
       "url": "https://www.gso.org.sa/store/",
       "status": "ok",
-      "characters": 16378
+      "characters": 16296
     },
     {
       "country": "GCC",
@@ -393,7 +393,7 @@
       "country": "Middle East",
       "url": "https://www.gso.org.sa/store/",
       "status": "ok",
-      "characters": 16378
+      "characters": 16338
     },
     {
       "country": "United States",
@@ -465,7 +465,7 @@
       "country": "Taiwan",
       "url": "https://www.mohw.gov.tw/",
       "status": "ok",
-      "characters": 2871
+      "characters": 2860
     },
     {
       "country": "Philippines",
@@ -495,7 +495,7 @@
       "country": "Vietnam",
       "url": "https://vanban.chinhphu.vn/",
       "status": "ok",
-      "characters": 35689
+      "characters": 35484
     }
   ]
 }
