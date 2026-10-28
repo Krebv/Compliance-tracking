@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T03:13:13.624Z",
+  "updatedAt": "2026-10-28T03:20:30.905Z",
   "model": "gemini-2.5-flash",
   "warning": "AI-assisted monitoring. Verify against official legislation before product approval, export, label declaration, or customer compliance confirmation.",
   "rules": [
@@ -297,13 +297,13 @@
       "country": "Codex",
       "url": "https://www.fao.org/fao-who-codexalimentarius/codex-texts/dbs/gsfa/en/",
       "status": "ok",
-      "characters": 6770
+      "characters": 6833
     },
     {
       "country": "Codex",
       "url": "https://www.fao.org/fao-who-codexalimentarius/thematic-areas/contaminants/en/",
       "status": "ok",
-      "characters": 6770
+      "characters": 6833
     },
     {
       "country": "European Union",
@@ -356,8 +356,8 @@
     {
       "country": "India",
       "url": "https://www.fssai.gov.in/upload/uploadfiles/files/Compendium_Food_Additives_Regulations_20_12_2022.pdf",
-      "status": "error",
-      "error": "terminated"
+      "status": "ok",
+      "characters": 11193862
     },
     {
       "country": "India",
@@ -381,7 +381,7 @@
       "country": "GCC",
       "url": "https://www.gso.org.sa/store/",
       "status": "ok",
-      "characters": 16296
+      "characters": 16093
     },
     {
       "country": "GCC",
@@ -393,7 +393,7 @@
       "country": "Middle East",
       "url": "https://www.gso.org.sa/store/",
       "status": "ok",
-      "characters": 16338
+      "characters": 16093
     },
     {
       "country": "United States",
@@ -465,7 +465,7 @@
       "country": "Taiwan",
       "url": "https://www.mohw.gov.tw/",
       "status": "ok",
-      "characters": 2860
+      "characters": 2888
     },
     {
       "country": "Philippines",
@@ -495,7 +495,7 @@
       "country": "Vietnam",
       "url": "https://vanban.chinhphu.vn/",
       "status": "ok",
-      "characters": 35484
+      "characters": 35690
     }
   ]
 }
