@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T03:20:30.905Z",
+  "updatedAt": "2026-10-29T03:50:51.621Z",
   "model": "gemini-2.5-flash",
   "warning": "AI-assisted monitoring. Verify against official legislation before product approval, export, label declaration, or customer compliance confirmation.",
   "rules": [
@@ -302,8 +302,8 @@
     {
       "country": "Codex",
       "url": "https://www.fao.org/fao-who-codexalimentarius/thematic-areas/contaminants/en/",
-      "status": "ok",
-      "characters": 6833
+      "status": "error",
+      "error": "524 <none>"
     },
     {
       "country": "European Union",
@@ -327,7 +327,7 @@
       "country": "Thailand",
       "url": "https://food.fda.moph.go.th/",
       "status": "ok",
-      "characters": 10240
+      "characters": 10198
     },
     {
       "country": "South Korea",
@@ -381,7 +381,7 @@
       "country": "GCC",
       "url": "https://www.gso.org.sa/store/",
       "status": "ok",
-      "characters": 16093
+      "characters": 16266
     },
     {
       "country": "GCC",
@@ -393,7 +393,7 @@
       "country": "Middle East",
       "url": "https://www.gso.org.sa/store/",
       "status": "ok",
-      "characters": 16093
+      "characters": 16208
     },
     {
       "country": "United States",
@@ -422,8 +422,8 @@
     {
       "country": "China",
       "url": "https://www.nhc.gov.cn/",
-      "status": "error",
-      "error": "412 Precondition Failed"
+      "status": "ok",
+      "characters": 6853
     },
     {
       "country": "China",
@@ -435,7 +435,7 @@
       "country": "Indonesia",
       "url": "https://www.pom.go.id/",
       "status": "ok",
-      "characters": 7733
+      "characters": 7743
     },
     {
       "country": "Indonesia",
@@ -465,7 +465,7 @@
       "country": "Taiwan",
       "url": "https://www.mohw.gov.tw/",
       "status": "ok",
-      "characters": 2888
+      "characters": 2894
     },
     {
       "country": "Philippines",
@@ -495,7 +495,7 @@
       "country": "Vietnam",
       "url": "https://vanban.chinhphu.vn/",
       "status": "ok",
-      "characters": 35690
+      "characters": 35664
     }
   ]
 }
