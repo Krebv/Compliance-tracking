@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T03:50:51.621Z",
+  "updatedAt": "2026-10-30T03:49:37.173Z",
   "model": "gemini-2.5-flash",
   "warning": "AI-assisted monitoring. Verify against official legislation before product approval, export, label declaration, or customer compliance confirmation.",
   "rules": [
@@ -302,8 +302,8 @@
     {
       "country": "Codex",
       "url": "https://www.fao.org/fao-who-codexalimentarius/thematic-areas/contaminants/en/",
-      "status": "error",
-      "error": "524 <none>"
+      "status": "ok",
+      "characters": 6833
     },
     {
       "country": "European Union",
@@ -381,7 +381,7 @@
       "country": "GCC",
       "url": "https://www.gso.org.sa/store/",
       "status": "ok",
-      "characters": 16266
+      "characters": 16080
     },
     {
       "country": "GCC",
@@ -393,7 +393,7 @@
       "country": "Middle East",
       "url": "https://www.gso.org.sa/store/",
       "status": "ok",
-      "characters": 16208
+      "characters": 16080
     },
     {
       "country": "United States",
@@ -422,8 +422,8 @@
     {
       "country": "China",
       "url": "https://www.nhc.gov.cn/",
-      "status": "ok",
-      "characters": 6853
+      "status": "error",
+      "error": "412 Precondition Failed"
     },
     {
       "country": "China",
@@ -435,7 +435,7 @@
       "country": "Indonesia",
       "url": "https://www.pom.go.id/",
       "status": "ok",
-      "characters": 7743
+      "characters": 7754
     },
     {
       "country": "Indonesia",
@@ -465,7 +465,7 @@
       "country": "Taiwan",
       "url": "https://www.mohw.gov.tw/",
       "status": "ok",
-      "characters": 2894
+      "characters": 2910
     },
     {
       "country": "Philippines",
@@ -495,7 +495,7 @@
       "country": "Vietnam",
       "url": "https://vanban.chinhphu.vn/",
       "status": "ok",
-      "characters": 35664
+      "characters": 35737
     }
   ]
 }
