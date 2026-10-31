@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T03:49:37.173Z",
+  "updatedAt": "2026-10-31T03:40:17.632Z",
   "model": "gemini-2.5-flash",
   "warning": "AI-assisted monitoring. Verify against official legislation before product approval, export, label declaration, or customer compliance confirmation.",
   "rules": [
@@ -356,14 +356,14 @@
     {
       "country": "India",
       "url": "https://www.fssai.gov.in/upload/uploadfiles/files/Compendium_Food_Additives_Regulations_20_12_2022.pdf",
-      "status": "ok",
-      "characters": 11193862
+      "status": "error",
+      "error": "terminated"
     },
     {
       "country": "India",
       "url": "https://www.fssai.gov.in/upload/uploadfiles/files/Compendium_Labelling_Display_30_06_2022.pdf",
-      "status": "ok",
-      "characters": 1136388
+      "status": "error",
+      "error": "fetch failed"
     },
     {
       "country": "Bangladesh",
@@ -381,7 +381,7 @@
       "country": "GCC",
       "url": "https://www.gso.org.sa/store/",
       "status": "ok",
-      "characters": 16080
+      "characters": 16179
     },
     {
       "country": "GCC",
@@ -393,7 +393,7 @@
       "country": "Middle East",
       "url": "https://www.gso.org.sa/store/",
       "status": "ok",
-      "characters": 16080
+      "characters": 16179
     },
     {
       "country": "United States",
@@ -435,7 +435,7 @@
       "country": "Indonesia",
       "url": "https://www.pom.go.id/",
       "status": "ok",
-      "characters": 7754
+      "characters": 7755
     },
     {
       "country": "Indonesia",
@@ -495,7 +495,7 @@
       "country": "Vietnam",
       "url": "https://vanban.chinhphu.vn/",
       "status": "ok",
-      "characters": 35737
+      "characters": 35616
     }
   ]
 }
