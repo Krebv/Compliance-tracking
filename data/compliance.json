@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T04:47:42.975Z",
+  "updatedAt": "2026-11-04T04:11:48.461Z",
   "model": "gemini-2.5-flash",
   "warning": "AI-assisted monitoring. Verify against official legislation before product approval, export, label declaration, or customer compliance confirmation.",
   "rules": [
@@ -297,13 +297,13 @@
       "country": "Codex",
       "url": "https://www.fao.org/fao-who-codexalimentarius/codex-texts/dbs/gsfa/en/",
       "status": "ok",
-      "characters": 6833
+      "characters": 6842
     },
     {
       "country": "Codex",
       "url": "https://www.fao.org/fao-who-codexalimentarius/thematic-areas/contaminants/en/",
       "status": "ok",
-      "characters": 6833
+      "characters": 6842
     },
     {
       "country": "European Union",
@@ -326,8 +326,8 @@
     {
       "country": "Thailand",
       "url": "https://food.fda.moph.go.th/",
-      "status": "ok",
-      "characters": 10798
+      "status": "error",
+      "error": "fetch failed"
     },
     {
       "country": "South Korea",
@@ -350,8 +350,8 @@
     {
       "country": "Japan",
       "url": "https://www.japaneselawtranslation.go.jp/en/laws/view/3687/en",
-      "status": "ok",
-      "characters": 111719
+      "status": "error",
+      "error": "403 Forbidden"
     },
     {
       "country": "India",
@@ -381,7 +381,7 @@
       "country": "GCC",
       "url": "https://www.gso.org.sa/store/",
       "status": "ok",
-      "characters": 16114
+      "characters": 16051
     },
     {
       "country": "GCC",
@@ -393,7 +393,7 @@
       "country": "Middle East",
       "url": "https://www.gso.org.sa/store/",
       "status": "ok",
-      "characters": 16114
+      "characters": 16051
     },
     {
       "country": "United States",
@@ -435,7 +435,7 @@
       "country": "Indonesia",
       "url": "https://www.pom.go.id/",
       "status": "ok",
-      "characters": 7725
+      "characters": 7741
     },
     {
       "country": "Indonesia",
@@ -458,14 +458,14 @@
     {
       "country": "Taiwan",
       "url": "https://www.fda.gov.tw/eng/lawContent.aspx?cid=16&id=3407",
-      "status": "ok",
-      "characters": 4741
+      "status": "error",
+      "error": "fetch failed"
     },
     {
       "country": "Taiwan",
       "url": "https://www.mohw.gov.tw/",
-      "status": "ok",
-      "characters": 2931
+      "status": "error",
+      "error": "fetch failed"
     },
     {
       "country": "Philippines",
@@ -495,7 +495,7 @@
       "country": "Vietnam",
       "url": "https://vanban.chinhphu.vn/",
       "status": "ok",
-      "characters": 35487
+      "characters": 34942
     }
   ]
 }
