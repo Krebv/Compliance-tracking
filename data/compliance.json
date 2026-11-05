@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T04:11:48.461Z",
+  "updatedAt": "2026-11-05T04:31:16.397Z",
   "model": "gemini-2.5-flash",
   "warning": "AI-assisted monitoring. Verify against official legislation before product approval, export, label declaration, or customer compliance confirmation.",
   "rules": [
@@ -297,13 +297,13 @@
       "country": "Codex",
       "url": "https://www.fao.org/fao-who-codexalimentarius/codex-texts/dbs/gsfa/en/",
       "status": "ok",
-      "characters": 6842
+      "characters": 6829
     },
     {
       "country": "Codex",
       "url": "https://www.fao.org/fao-who-codexalimentarius/thematic-areas/contaminants/en/",
       "status": "ok",
-      "characters": 6842
+      "characters": 6829
     },
     {
       "country": "European Union",
@@ -326,8 +326,8 @@
     {
       "country": "Thailand",
       "url": "https://food.fda.moph.go.th/",
-      "status": "error",
-      "error": "fetch failed"
+      "status": "ok",
+      "characters": 10798
     },
     {
       "country": "South Korea",
@@ -356,14 +356,14 @@
     {
       "country": "India",
       "url": "https://www.fssai.gov.in/upload/uploadfiles/files/Compendium_Food_Additives_Regulations_20_12_2022.pdf",
-      "status": "ok",
-      "characters": 11193862
+      "status": "error",
+      "error": "fetch failed"
     },
     {
       "country": "India",
       "url": "https://www.fssai.gov.in/upload/uploadfiles/files/Compendium_Labelling_Display_30_06_2022.pdf",
-      "status": "ok",
-      "characters": 1136388
+      "status": "error",
+      "error": "fetch failed"
     },
     {
       "country": "Bangladesh",
@@ -381,7 +381,7 @@
       "country": "GCC",
       "url": "https://www.gso.org.sa/store/",
       "status": "ok",
-      "characters": 16051
+      "characters": 16311
     },
     {
       "country": "GCC",
@@ -393,7 +393,7 @@
       "country": "Middle East",
       "url": "https://www.gso.org.sa/store/",
       "status": "ok",
-      "characters": 16051
+      "characters": 16189
     },
     {
       "country": "United States",
@@ -435,7 +435,7 @@
       "country": "Indonesia",
       "url": "https://www.pom.go.id/",
       "status": "ok",
-      "characters": 7741
+      "characters": 7743
     },
     {
       "country": "Indonesia",
@@ -458,14 +458,14 @@
     {
       "country": "Taiwan",
       "url": "https://www.fda.gov.tw/eng/lawContent.aspx?cid=16&id=3407",
-      "status": "error",
-      "error": "fetch failed"
+      "status": "ok",
+      "characters": 4741
     },
     {
       "country": "Taiwan",
       "url": "https://www.mohw.gov.tw/",
-      "status": "error",
-      "error": "fetch failed"
+      "status": "ok",
+      "characters": 2907
     },
     {
       "country": "Philippines",
@@ -495,7 +495,7 @@
       "country": "Vietnam",
       "url": "https://vanban.chinhphu.vn/",
       "status": "ok",
-      "characters": 34942
+      "characters": 35132
     }
   ]
 }
