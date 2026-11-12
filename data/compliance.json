@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T03:59:03.093Z",
+  "updatedAt": "2026-11-12T05:08:47.327Z",
   "model": "gemini-2.5-flash",
   "warning": "AI-assisted monitoring. Verify against official legislation before product approval, export, label declaration, or customer compliance confirmation.",
   "rules": [
@@ -279,13 +279,13 @@
       "country": "Singapore",
       "url": "https://www.sfa.gov.sg/regulatory-standards-frameworks-guidelines/food-safety-regulatory-limits/regulatory-limits-for-food-additives",
       "status": "ok",
-      "characters": 15467
+      "characters": 0
     },
     {
       "country": "Singapore",
       "url": "https://www.sfa.gov.sg/regulatory-standards-frameworks-guidelines/food-safety-regulatory-limits/regulatory-limits-for-contaminants-in-food",
       "status": "ok",
-      "characters": 13882
+      "characters": 0
     },
     {
       "country": "Singapore",
@@ -327,7 +327,7 @@
       "country": "Thailand",
       "url": "https://food.fda.moph.go.th/",
       "status": "ok",
-      "characters": 10930
+      "characters": 10926
     },
     {
       "country": "South Korea",
@@ -381,19 +381,19 @@
       "country": "GCC",
       "url": "https://www.gso.org.sa/store/",
       "status": "ok",
-      "characters": 16373
+      "characters": 15097
     },
     {
       "country": "GCC",
       "url": "https://www.gso.org.sa/store/standards/GSO:693280/GSO1016:2015?lang=en",
       "status": "ok",
-      "characters": 2908
+      "characters": 2776
     },
     {
       "country": "Middle East",
       "url": "https://www.gso.org.sa/store/",
       "status": "ok",
-      "characters": 16434
+      "characters": 15097
     },
     {
       "country": "United States",
@@ -423,7 +423,7 @@
       "country": "China",
       "url": "https://www.nhc.gov.cn/",
       "status": "error",
-      "error": "412 Precondition Failed"
+      "error": "fetch failed"
     },
     {
       "country": "China",
@@ -435,7 +435,7 @@
       "country": "Indonesia",
       "url": "https://www.pom.go.id/",
       "status": "ok",
-      "characters": 7680
+      "characters": 7701
     },
     {
       "country": "Indonesia",
@@ -465,7 +465,7 @@
       "country": "Taiwan",
       "url": "https://www.mohw.gov.tw/",
       "status": "ok",
-      "characters": 2911
+      "characters": 2882
     },
     {
       "country": "Philippines",
@@ -495,7 +495,7 @@
       "country": "Vietnam",
       "url": "https://vanban.chinhphu.vn/",
       "status": "ok",
-      "characters": 35180
+      "characters": 35324
     }
   ]
 }
