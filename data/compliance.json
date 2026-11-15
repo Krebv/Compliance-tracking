@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T04:20:23.729Z",
+  "updatedAt": "2026-11-15T04:04:34.237Z",
   "model": "gemini-2.5-flash",
   "warning": "AI-assisted monitoring. Verify against official legislation before product approval, export, label declaration, or customer compliance confirmation.",
   "rules": [
@@ -308,8 +308,8 @@
     {
       "country": "European Union",
       "url": "https://food.ec.europa.eu/food-safety/food-improvement-agents/additives/database_en",
-      "status": "ok",
-      "characters": 2415
+      "status": "error",
+      "error": "429 Too Many Requests"
     },
     {
       "country": "European Union",
@@ -381,19 +381,19 @@
       "country": "GCC",
       "url": "https://www.gso.org.sa/store/",
       "status": "ok",
-      "characters": 15369
+      "characters": 15303
     },
     {
       "country": "GCC",
       "url": "https://www.gso.org.sa/store/standards/GSO:693280/GSO1016:2015?lang=en",
       "status": "ok",
-      "characters": 2776
+      "characters": 2772
     },
     {
       "country": "Middle East",
       "url": "https://www.gso.org.sa/store/",
       "status": "ok",
-      "characters": 15369
+      "characters": 15303
     },
     {
       "country": "United States",
