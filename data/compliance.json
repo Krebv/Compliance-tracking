@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T04:04:34.237Z",
+  "updatedAt": "2026-11-16T04:03:39.008Z",
   "model": "gemini-2.5-flash",
   "warning": "AI-assisted monitoring. Verify against official legislation before product approval, export, label declaration, or customer compliance confirmation.",
   "rules": [
@@ -279,13 +279,13 @@
       "country": "Singapore",
       "url": "https://www.sfa.gov.sg/regulatory-standards-frameworks-guidelines/food-safety-regulatory-limits/regulatory-limits-for-food-additives",
       "status": "ok",
-      "characters": 0
+      "characters": 14937
     },
     {
       "country": "Singapore",
       "url": "https://www.sfa.gov.sg/regulatory-standards-frameworks-guidelines/food-safety-regulatory-limits/regulatory-limits-for-contaminants-in-food",
       "status": "ok",
-      "characters": 0
+      "characters": 13376
     },
     {
       "country": "Singapore",
@@ -308,8 +308,8 @@
     {
       "country": "European Union",
       "url": "https://food.ec.europa.eu/food-safety/food-improvement-agents/additives/database_en",
-      "status": "error",
-      "error": "429 Too Many Requests"
+      "status": "ok",
+      "characters": 2415
     },
     {
       "country": "European Union",
@@ -321,13 +321,13 @@
       "country": "Malaysia",
       "url": "https://hq.moh.gov.my/fsq/xs/dl.php?filename=Food+Regulation+1985+Update+291024+%28PUA+209_2020%29.pdf",
       "status": "ok",
-      "characters": 42
+      "characters": 80
     },
     {
       "country": "Thailand",
       "url": "https://food.fda.moph.go.th/",
-      "status": "ok",
-      "characters": 10412
+      "status": "error",
+      "error": "fetch failed"
     },
     {
       "country": "South Korea",
@@ -350,8 +350,8 @@
     {
       "country": "Japan",
       "url": "https://www.japaneselawtranslation.go.jp/en/laws/view/3687/en",
-      "status": "error",
-      "error": "403 Forbidden"
+      "status": "ok",
+      "characters": 111719
     },
     {
       "country": "India",
@@ -381,19 +381,19 @@
       "country": "GCC",
       "url": "https://www.gso.org.sa/store/",
       "status": "ok",
-      "characters": 15303
+      "characters": 15176
     },
     {
       "country": "GCC",
       "url": "https://www.gso.org.sa/store/standards/GSO:693280/GSO1016:2015?lang=en",
       "status": "ok",
-      "characters": 2772
+      "characters": 2776
     },
     {
       "country": "Middle East",
       "url": "https://www.gso.org.sa/store/",
       "status": "ok",
-      "characters": 15303
+      "characters": 15407
     },
     {
       "country": "United States",
@@ -495,7 +495,7 @@
       "country": "Vietnam",
       "url": "https://vanban.chinhphu.vn/",
       "status": "ok",
-      "characters": 35574
+      "characters": 35355
     }
   ]
 }
