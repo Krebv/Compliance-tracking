@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T05:55:28.426Z",
+  "updatedAt": "2026-11-18T05:23:00.403Z",
   "model": "gemini-2.5-flash",
   "warning": "AI-assisted monitoring. Verify against official legislation before product approval, export, label declaration, or customer compliance confirmation.",
   "rules": [
@@ -381,7 +381,7 @@
       "country": "GCC",
       "url": "https://www.gso.org.sa/store/",
       "status": "ok",
-      "characters": 15239
+      "characters": 15486
     },
     {
       "country": "GCC",
@@ -393,7 +393,7 @@
       "country": "Middle East",
       "url": "https://www.gso.org.sa/store/",
       "status": "ok",
-      "characters": 15239
+      "characters": 15486
     },
     {
       "country": "United States",
@@ -435,7 +435,7 @@
       "country": "Indonesia",
       "url": "https://www.pom.go.id/",
       "status": "ok",
-      "characters": 7760
+      "characters": 7740
     },
     {
       "country": "Indonesia",
@@ -465,7 +465,7 @@
       "country": "Taiwan",
       "url": "https://www.mohw.gov.tw/",
       "status": "ok",
-      "characters": 2884
+      "characters": 2827
     },
     {
       "country": "Philippines",
@@ -495,7 +495,7 @@
       "country": "Vietnam",
       "url": "https://vanban.chinhphu.vn/",
       "status": "ok",
-      "characters": 35204
+      "characters": 34605
     }
   ]
 }
