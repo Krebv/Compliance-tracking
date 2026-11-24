@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T04:59:53.754Z",
+  "updatedAt": "2026-11-24T07:48:02.628Z",
   "model": "gemini-2.5-flash",
   "warning": "AI-assisted monitoring. Verify against official legislation before product approval, export, label declaration, or customer compliance confirmation.",
   "rules": [
@@ -314,8 +314,8 @@
     {
       "country": "European Union",
       "url": "https://food.ec.europa.eu/food-safety/biological-safety/food-hygiene/microbiological-criteria_en",
-      "status": "error",
-      "error": "429 Too Many Requests"
+      "status": "ok",
+      "characters": 10616
     },
     {
       "country": "Malaysia",
@@ -381,19 +381,19 @@
       "country": "GCC",
       "url": "https://www.gso.org.sa/store/",
       "status": "ok",
-      "characters": 13898
+      "characters": 14002
     },
     {
       "country": "GCC",
       "url": "https://www.gso.org.sa/store/standards/GSO:693280/GSO1016:2015?lang=en",
       "status": "ok",
-      "characters": 2772
+      "characters": 2794
     },
     {
       "country": "Middle East",
       "url": "https://www.gso.org.sa/store/",
       "status": "ok",
-      "characters": 13898
+      "characters": 14164
     },
     {
       "country": "United States",
@@ -423,7 +423,7 @@
       "country": "China",
       "url": "https://www.nhc.gov.cn/",
       "status": "error",
-      "error": "412 Precondition Failed"
+      "error": "fetch failed"
     },
     {
       "country": "China",
@@ -435,7 +435,7 @@
       "country": "Indonesia",
       "url": "https://www.pom.go.id/",
       "status": "ok",
-      "characters": 7743
+      "characters": 7689
     },
     {
       "country": "Indonesia",
@@ -458,14 +458,14 @@
     {
       "country": "Taiwan",
       "url": "https://www.fda.gov.tw/eng/lawContent.aspx?cid=16&id=3407",
-      "status": "ok",
-      "characters": 4741
+      "status": "error",
+      "error": "fetch failed"
     },
     {
       "country": "Taiwan",
       "url": "https://www.mohw.gov.tw/",
-      "status": "ok",
-      "characters": 2848
+      "status": "error",
+      "error": "fetch failed"
     },
     {
       "country": "Philippines",
@@ -495,7 +495,7 @@
       "country": "Vietnam",
       "url": "https://vanban.chinhphu.vn/",
       "status": "ok",
-      "characters": 35015
+      "characters": 35930
     }
   ]
 }
