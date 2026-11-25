@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T07:48:02.628Z",
+  "updatedAt": "2026-11-25T06:20:19.284Z",
   "model": "gemini-2.5-flash",
   "warning": "AI-assisted monitoring. Verify against official legislation before product approval, export, label declaration, or customer compliance confirmation.",
   "rules": [
@@ -297,13 +297,13 @@
       "country": "Codex",
       "url": "https://www.fao.org/fao-who-codexalimentarius/codex-texts/dbs/gsfa/en/",
       "status": "ok",
-      "characters": 6778
+      "characters": 6806
     },
     {
       "country": "Codex",
       "url": "https://www.fao.org/fao-who-codexalimentarius/thematic-areas/contaminants/en/",
       "status": "ok",
-      "characters": 6778
+      "characters": 6806
     },
     {
       "country": "European Union",
@@ -327,7 +327,7 @@
       "country": "Thailand",
       "url": "https://food.fda.moph.go.th/",
       "status": "ok",
-      "characters": 10184
+      "characters": 10143
     },
     {
       "country": "South Korea",
@@ -381,7 +381,7 @@
       "country": "GCC",
       "url": "https://www.gso.org.sa/store/",
       "status": "ok",
-      "characters": 14002
+      "characters": 13846
     },
     {
       "country": "GCC",
@@ -393,7 +393,7 @@
       "country": "Middle East",
       "url": "https://www.gso.org.sa/store/",
       "status": "ok",
-      "characters": 14164
+      "characters": 13846
     },
     {
       "country": "United States",
@@ -435,7 +435,7 @@
       "country": "Indonesia",
       "url": "https://www.pom.go.id/",
       "status": "ok",
-      "characters": 7689
+      "characters": 7683
     },
     {
       "country": "Indonesia",
@@ -464,8 +464,8 @@
     {
       "country": "Taiwan",
       "url": "https://www.mohw.gov.tw/",
-      "status": "error",
-      "error": "fetch failed"
+      "status": "ok",
+      "characters": 2873
     },
     {
       "country": "Philippines",
@@ -495,7 +495,7 @@
       "country": "Vietnam",
       "url": "https://vanban.chinhphu.vn/",
       "status": "ok",
-      "characters": 35930
+      "characters": 35963
     }
   ]
 }
